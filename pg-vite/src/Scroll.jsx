@@ -1,4 +1,4 @@
-import "./Scroll.css";
+import "./css/Scroll.css";
 import fsa from "./images/fsa.jpeg";
 import md from "./images/md.jpeg";
 import newPath from "./images/newPath.jpeg";

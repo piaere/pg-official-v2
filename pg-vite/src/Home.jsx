@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./css/Home.css";
 import Scroll from "./Scroll";
 
 import pg from "./images/pg-blue.jpg";

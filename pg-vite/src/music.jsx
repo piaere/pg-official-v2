@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./music.css";
+import "./css/music.css";
 
 const Music = () => {
   const [data, setData] = useState([]);

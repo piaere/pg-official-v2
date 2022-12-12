@@ -1,0 +1,379 @@
+{
+  "music": [
+    {
+      "Prizes & institutions": [
+        {
+          "2021": [
+            {
+              "institution": "ADISQ Awards",
+              "category": "piece Of The Year - Other languages",
+              "status": "Won",
+              "artist": "Marie Davidson & L’Oeil Nu,",
+              "piece": "Renegade Breakdown",
+              "role": "Composer"
+            },
+            {
+              "institution": "ADISQ Awards",
+              "category": "piece Production Of The year",
+              "status": "Nominated",
+              "artist": "Marie Davidson & L’Oeil Nu,",
+              "piece": "Renegade Breakdown",
+              "role": "Producer"
+            },
+            {
+              "institution": "ADISQ Awards",
+              "category": "piece Recording & Mixing Of The year",
+              "status": "Nominated",
+              "artist": "Marie Davidson & L’Oeil Nu,",
+              "piece": "Renegade Breakdown",
+              "role": "Enginner"
+            }
+          ]
+        },
+        {
+          "2020": [
+            {
+              "institution": "GRAMMY Awards",
+              "category": "Best Remixed Recording",
+              "status": "Nominated",
+              "artist": "Marie Davidson",
+              "piece": "Work It (Soulwax Remix)",
+              "role": "Vocal Producer"
+            }
+          ]
+        },
+        {
+          "2019": [
+            {
+              "institution": "SOCAN Awards",
+              "category": "Electronic Album Of The Year",
+              "status": "Won",
+              "artist": "Marie Davidson",
+              "piece": "Working Class Woman",
+              "role": "Producer"
+            },
+            {
+              "institution": "POLARIS Prize",
+              "category": "Album Of The Year",
+              "status": "Short Listed",
+              "artist": "Marie Davidson",
+              "piece": "Working Class Woman",
+              "role": "Producer"
+            }
+          ]
+        },
+        {
+          "2017": [
+            {
+              "institution": "SOCAN Awards",
+              "category": "Electronic Album Of The Year",
+              "status": "Won",
+              "artist": "Marie Davidson",
+              "piece": "Adieux au Dancefloor",
+              "role": "Producer"
+            },
+            {
+              "institution": "POLARIS Prize",
+              "category": "Album Of The Year",
+              "status": "Long Listed",
+              "artist": "Marie Davidson",
+              "piece": "Adieux au Dancefloor",
+              "role": "Producer"
+            }
+          ]
+        },
+        {
+          "2016": [
+            {
+              "institution": "POLARIS Prize",
+              "category": "Album Of The Year",
+              "status": "Long Listed",
+              "artist": "Essaie pas",
+              "piece": "Demain est une autre nuit",
+              "role": "Composer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Producer / Engineer (Selective Discography)": [
+        {
+          "artist": "Lash",
+          "album": "House Of Women",
+          "label": "Éditions Appærent,",
+          "year": "2022"
+        },
+        {
+          "artist": "Anna Arrobas",
+          "album": "Made To Touch",
+          "label": "Éditions Appærent,",
+          "year": "2022"
+        },
+        {
+          "artist": "Bernardino Femminielli",
+          "album": "Daddy's Boy",
+          "label": "Éditions Appærent,",
+          "year": "2022"
+        },
+        {
+          "artist": "MSYLMA & ISMAEL",
+          "album": "ذاهب النسيان/ The Tenets of Forgetting",
+          "label": "Éditions Appærent,",
+          "year": "2022"
+        },
+        {
+          "artist": "Dawn To Dawn",
+          "album": "Postcards From The Sun To The Moon",
+          "label": "SSURROUNDSS",
+          "year": "2022"
+        },
+        {
+          "artist": "bela",
+          "album": "Guidelines",
+          "label": "Éditions Appærent,",
+          "year": "2021"
+        },
+        {
+          "artist": "Bernardino Femminielli",
+          "album": "L'Exil",
+          "label": "Éditions Appærent,",
+          "year": "2021"
+        },
+        {
+          "artist": "Marie Davidson & L’OEil Nu",
+          "album": "Renegade Breakdown",
+          "label": "Ninja Tune",
+          "year": "2020"
+        },
+        {
+          "artist": "Pelada",
+          "album": "Movimento Para Cambio",
+          "label": "PAN",
+          "year": "2019"
+        },
+        {
+          "artist": "Alex Zhang Hungtai",
+          "album": "Divine Weight",
+          "label": "NON",
+          "year": "2018"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Working Class Woman",
+          "label": "Ninja Tune",
+          "year": "2018"
+        },
+        {
+          "artist": "Ginger Breaker",
+          "album": "Pumping The Tires Of Hell",
+          "label": "Booma Collective",
+          "year": "2017"
+        },
+        {
+          "artist": "Pascale Project",
+          "album": "7AM",
+          "label": "Noumenal Loom",
+          "year": "2017"
+        },
+        {
+          "artist": "Security",
+          "album": "Arid Land",
+          "label": "Menace Collective / Hungry Eye",
+          "year": "2017"
+        },
+        {
+          "artist": "SLEAZY",
+          "album": "From Quebec With Love",
+          "label": "Tag Out",
+          "year": "2017"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Adieux au Dancefloor",
+          "label": "Cititrax",
+          "year": "2016"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Un autre voyage",
+          "label": "Holodeck",
+          "year": "2015"
+        },
+        {
+          "artist": "Low Factor",
+          "album": "Seizures On A Battleground",
+          "label": "Low Factor",
+          "year": "2014"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Perte d'identité",
+          "label": "Weyrd Son",
+          "year": "2014"
+        },
+        {
+          "artist": "Dirty Beaches",
+          "album": "Drifters / Love Is The Devil",
+          "label": "Zoo Music",
+          "year": "2013"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "s/t",
+          "label": "Holodeck",
+          "year": "2013"
+        },
+        {
+          "artist": "Bataille Solaire",
+          "album": "Documentaires",
+          "label": "Constellation Tatsu",
+          "year": "2013"
+        }
+      ]
+    },
+    {
+      "Recorded Music (Composition)": [
+        {
+          "Marie Davidson & L’OEil Nu": [
+            {
+              "album": "Renegade Breakdown",
+              "label": "Ninja Tune",
+              "year": "2020"
+            }
+          ],
+
+          "Feu St-Antoine": [
+            {
+              "album": "L'eau par la soif",
+              "label": "Éditions Appærent",
+              "year": "2020"
+            }
+          ],
+          "Essaie pas (duo with Marie Davidson)": [
+            {
+              "album": "Earth",
+              "label": "DFA",
+              "year": "2019"
+            },
+            {
+              "album": "New Path",
+              "label": "DFA",
+              "year": "2018"
+            },
+            {
+              "album": "Demain est une autre nuit",
+              "label": "DFA",
+              "year": "2016"
+            },
+            {
+              "album": "Danse Sociale",
+              "label": "Teenage Menopause",
+              "year": "2015"
+            },
+            {
+              "album": "Split Essaie pas/ Police des Moeurs",
+              "label": "Atelier Ciseaux",
+              "year": "2014"
+            },
+            {
+              "album": "Nuit de noce",
+              "label": "Teenage Menopause",
+              "year": "2013"
+            },
+            {
+              "album": "Tout est jeune",
+              "label": "Téméraire",
+              "year": "2013"
+            },
+            {
+              "album": "Split w/ Hobo Cubes, Liaisons dans la nuit / Le fruit des solitudes Split",
+              "label": "Téméraire",
+              "year": "2012"
+            },
+            {
+              "album": "EP",
+              "label": "Téméraire",
+              "year": "2011"
+            }
+          ]
+        },
+        {}
+      ]
+    },
+    {
+      "Oiginal Motion Picture Soundtracks": [
+        {
+          "film": "I Was A Simple Man",
+          "director": "Christopher Makoto Yogi",
+          "year": "2021"
+        },
+        {
+          "film": "The Scars Of Ali Boulala",
+          "director": "Max Eriksson",
+          "year": "2021"
+        },
+        {
+          "film": "Cercueil, Tabarnak!",
+          "director": "Loïc Darses",
+          "year": "2020"
+        },
+        {
+          "film": "Can’t Put Your Arms Around A Memory",
+          "director": "Richmon Lam",
+          "year": "2019"
+        },
+        {
+          "film": "Who Is Arthur Chu?",
+          "director": "Scott J. Drucker & Yu Gu",
+          "year": "2017"
+        },
+        {
+          "film": "Frequencies – The Music Of League of...",
+          "director": "Caleb Slain",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "Remixes": [
+        {
+          "artist": "Moderat",
+          "title": "Fast Land",
+          "label": "Monkeytown",
+          "year": "2023"
+        },
+        {
+          "artist": "Tom Blip & Swordman Kitala",
+          "title": "Kimbalagala",
+          "label": "Ninja Tune",
+          "year": "2022"
+        },
+        {
+          "artist": "SLEAZY",
+          "title": " Que Calor",
+          "label": "Tag Out",
+          "year": "2018"
+        },
+        {
+          "artist": "Detobeat",
+          "title": "Cliffs",
+          "label": "Lurid",
+          "year": "2017"
+        },
+        {
+          "artist": "Wake Island",
+          "title": "Pleasure",
+          "label": "Wake Island",
+          "year": "2017"
+        },
+        {
+          "artist": "Factory Floor",
+          "title": "How You Say",
+          "label": "DFA",
+          "year": "2014"
+        }
+      ]
+    }
+  ]
+}

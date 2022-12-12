@@ -4,7 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Music from "./music";
 import Web from "./web";
-import "./Global.css";
+import "./css/Global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
