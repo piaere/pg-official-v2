@@ -1,0 +1,36 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+
+  font-family: PPNeueMontreal-Book;
+  font-size: 1.4em;
+
+  border-bottom: 1px solid black;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.sections {
+  /* display: flex;
+  justify-content: space-between; */
+}
+.name {
+  /* border-right: 1px solid black; */
+}
+.section {
+  /* padding-left: 10px; */
+}

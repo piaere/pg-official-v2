@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background: rgb(249, 235, 241);
+  font-family: PPNeueMontreal-Book;
+  margin: 5px 20px 0;
+  
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: local("PPNeueMontreal-Book"),
+    url(./fonts/PPNeueMontreal-Book.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: "PPHatton-Light";
+  src: local("PPHatton-Light"), url(./fonts/PPHatton-Light.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

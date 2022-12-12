@@ -1,0 +1,18 @@
+.container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: right;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+}
+
+.description {
+  font-family: PPHatton-Light;
+  font-size: 4em;
+  padding: 100px 20px 0 0;
+}
+
+.portrait {
+  width: 50%;
+  border-left: 1px black solid;
+}
