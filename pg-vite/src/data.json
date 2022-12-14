@@ -1,125 +1,87 @@
 {
   "music": [
     {
-      "Prizes & institutions": [
+      "prizes": [
         {
-          "2021": [
-            {
-              "institution": "ADISQ Awards",
-              "category": "piece Of The Year - Other languages",
-              "status": "Won",
-              "artist": "Marie Davidson & L’Oeil Nu,",
-              "piece": "Renegade Breakdown",
-              "role": "Composer"
-            },
-            {
-              "institution": "ADISQ Awards",
-              "category": "piece Production Of The year",
-              "status": "Nominated",
-              "artist": "Marie Davidson & L’Oeil Nu,",
-              "piece": "Renegade Breakdown",
-              "role": "Producer"
-            },
-            {
-              "institution": "ADISQ Awards",
-              "category": "piece Recording & Mixing Of The year",
-              "status": "Nominated",
-              "artist": "Marie Davidson & L’Oeil Nu,",
-              "piece": "Renegade Breakdown",
-              "role": "Enginner"
-            }
-          ]
+          "institution": "ADISQ ",
+          "category": "Album Of The Year — Other languages (Won)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
         },
         {
-          "2020": [
-            {
-              "institution": "GRAMMY Awards",
-              "category": "Best Remixed Recording",
-              "status": "Nominated",
-              "artist": "Marie Davidson",
-              "piece": "Work It (Soulwax Remix)",
-              "role": "Vocal Producer"
-            }
-          ]
+          "institution": "ADISQ ",
+          "category": "Music Production Of The year (Nominated)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
         },
         {
-          "2019": [
-            {
-              "institution": "SOCAN Awards",
-              "category": "Electronic Album Of The Year",
-              "status": "Won",
-              "artist": "Marie Davidson",
-              "piece": "Working Class Woman",
-              "role": "Producer"
-            },
-            {
-              "institution": "POLARIS Prize",
-              "category": "Album Of The Year",
-              "status": "Short Listed",
-              "artist": "Marie Davidson",
-              "piece": "Working Class Woman",
-              "role": "Producer"
-            }
-          ]
+          "institution": "ADISQ ",
+          "category": "Recording & Mixing Of The year (Nominated)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
         },
         {
-          "2017": [
-            {
-              "institution": "SOCAN Awards",
-              "category": "Electronic Album Of The Year",
-              "status": "Won",
-              "artist": "Marie Davidson",
-              "piece": "Adieux au Dancefloor",
-              "role": "Producer"
-            },
-            {
-              "institution": "POLARIS Prize",
-              "category": "Album Of The Year",
-              "status": "Long Listed",
-              "artist": "Marie Davidson",
-              "piece": "Adieux au Dancefloor",
-              "role": "Producer"
-            }
-          ]
+          "institution": "GRAMMY ",
+          "category": "Best Remixed Recording (Nominated)",
+          "artist": "Marie Davidson — Work It (Soulwax Remix)",
+          "year": "2020"
         },
         {
-          "2016": [
-            {
-              "institution": "POLARIS Prize",
-              "category": "Album Of The Year",
-              "status": "Long Listed",
-              "artist": "Essaie pas",
-              "piece": "Demain est une autre nuit",
-              "role": "Composer"
-            }
-          ]
+          "institution": "SOCAN ",
+          "category": "Electronic Album Of The Year (Won)",
+          "artist": "Marie Davidson — Working Class Woman",
+          "year": "2019"
+        },
+        {
+          "institution": "POLARIS",
+          "category": "Short List",
+          "artist": "Marie Davidson — Working Class Woman",
+          "year": "2019"
+        },
+        {
+          "institution": "SOCAN ",
+          "category": "Electronic Album Of The Year (Won)",
+          "artist": "Marie Davidson — Adieux au Dancefloor",
+          "year": "2017"
+        },
+        {
+          "institution": "POLARIS Prize",
+          "category": "Long List",
+          "artist": "Marie Davidson — Adieux au Dancefloor",
+          "year": "2017"
+        },
+        {
+          "institution": "POLARIS Prize",
+          "category": "Long List",
+          "artist": "Essaie pas — Demain est une autre nuit",
+          "year": "2016"
         }
       ]
     },
     {
-      "Producer / Engineer (Selective Discography)": [
+      "producer": [
         {
           "artist": "Lash",
           "album": "House Of Women",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2022"
         },
         {
           "artist": "Anna Arrobas",
           "album": "Made To Touch",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2022"
         },
         {
           "artist": "Bernardino Femminielli",
           "album": "Daddy's Boy",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2022"
         },
         {
           "artist": "MSYLMA & ISMAEL",
           "album": "ذاهب النسيان/ The Tenets of Forgetting",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2022"
         },
         {
@@ -131,13 +93,13 @@
         {
           "artist": "bela",
           "album": "Guidelines",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2021"
         },
         {
           "artist": "Bernardino Femminielli",
           "album": "L'Exil",
-          "label": "Éditions Appærent,",
+          "label": "Éditions Appærent",
           "year": "2021"
         },
         {
@@ -233,143 +195,150 @@
       ]
     },
     {
-      "Recorded Music (Composition)": [
+      "composer": [
         {
-          "Marie Davidson & L’OEil Nu": [
-            {
-              "album": "Renegade Breakdown",
-              "label": "Ninja Tune",
-              "year": "2020"
-            }
-          ],
-
-          "Feu St-Antoine": [
-            {
-              "album": "L'eau par la soif",
-              "label": "Éditions Appærent",
-              "year": "2020"
-            }
-          ],
-          "Essaie pas (duo with Marie Davidson)": [
-            {
-              "album": "Earth",
-              "label": "DFA",
-              "year": "2019"
-            },
-            {
-              "album": "New Path",
-              "label": "DFA",
-              "year": "2018"
-            },
-            {
-              "album": "Demain est une autre nuit",
-              "label": "DFA",
-              "year": "2016"
-            },
-            {
-              "album": "Danse Sociale",
-              "label": "Teenage Menopause",
-              "year": "2015"
-            },
-            {
-              "album": "Split Essaie pas/ Police des Moeurs",
-              "label": "Atelier Ciseaux",
-              "year": "2014"
-            },
-            {
-              "album": "Nuit de noce",
-              "label": "Teenage Menopause",
-              "year": "2013"
-            },
-            {
-              "album": "Tout est jeune",
-              "label": "Téméraire",
-              "year": "2013"
-            },
-            {
-              "album": "Split w/ Hobo Cubes, Liaisons dans la nuit / Le fruit des solitudes Split",
-              "label": "Téméraire",
-              "year": "2012"
-            },
-            {
-              "album": "EP",
-              "label": "Téméraire",
-              "year": "2011"
-            }
-          ]
+          "artist": "Marie Davidson & L’OEil Nu",
+          "album": "Renegade Breakdown",
+          "label": "Ninja Tune",
+          "year": "2020"
         },
-        {}
+        {
+          "artist": "Feu St-Antoine",
+          "album": "L'eau par la soif",
+          "label": "Éditions Appærent",
+          "year": "2020"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Earth",
+          "label": "DFA",
+          "year": "2019"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "New Path",
+          "label": "DFA",
+          "year": "2018"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Demain est une autre nuit",
+          "label": "DFA",
+          "year": "2016"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Danse Sociale",
+          "label": "Teenage Menopause",
+          "year": "2015"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Split Essaie pas/ Police des Moeurs",
+          "label": "Atelier Ciseaux",
+          "year": "2014"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Nuit de noce",
+          "label": "Teenage Menopause",
+          "year": "2013"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Tout est jeune",
+          "label": "Téméraire",
+          "year": "2013"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Liaisons dans la nuit / Le fruit des solitudes (w/ Hobo Cubes)",
+          "label": "Téméraire",
+          "year": "2012"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "EP",
+          "label": "Téméraire",
+          "year": "2011"
+        }
       ]
     },
     {
-      "Oiginal Motion Picture Soundtracks": [
+      "osts": [
         {
           "film": "I Was A Simple Man",
           "director": "Christopher Makoto Yogi",
+          "country": "USA",
           "year": "2021"
         },
         {
           "film": "The Scars Of Ali Boulala",
           "director": "Max Eriksson",
+          "country": "Sweden",
           "year": "2021"
         },
         {
           "film": "Cercueil, Tabarnak!",
           "director": "Loïc Darses",
+          "country": "Canada",
           "year": "2020"
         },
         {
           "film": "Can’t Put Your Arms Around A Memory",
           "director": "Richmon Lam",
+          "country": "Canada",
           "year": "2019"
         },
         {
           "film": "Who Is Arthur Chu?",
           "director": "Scott J. Drucker & Yu Gu",
+          "country": "USA",
           "year": "2017"
         },
         {
-          "film": "Frequencies – The Music Of League of...",
+          "film": "Frequencies – The Music Of League of Legends",
           "director": "Caleb Slain",
+          "country": "USA",
           "year": "2015"
         }
       ]
     },
     {
-      "Remixes": [
+      "remixes": [
         {
           "artist": "Moderat",
-          "title": "Fast Land",
+          "title": "Fast Land (Marie Davidson Remix)",
           "label": "Monkeytown",
           "year": "2023"
         },
         {
           "artist": "Tom Blip & Swordman Kitala",
-          "title": "Kimbalagala",
+          "title": "Kimbalagala (Marie Davidson Remix)",
           "label": "Ninja Tune",
           "year": "2022"
         },
         {
           "artist": "SLEAZY",
-          "title": " Que Calor",
+          "title": " Que Calor (Pierre Guerineau Remix)",
           "label": "Tag Out",
           "year": "2018"
         },
         {
           "artist": "Detobeat",
-          "title": "Cliffs",
+          "title": "Cliffs (Pierre Guerineau Remix)",
           "label": "Lurid",
           "year": "2017"
         },
         {
           "artist": "Wake Island",
-          "title": "Pleasure",
+          "title": "Pleasure (Essaie pas Remix)",
           "label": "Wake Island",
           "year": "2017"
         },
         {
           "artist": "Factory Floor",
-          "title": "How You Say",
+          "title": "How You Say (Essaie pas Remix)",
           "label": "DFA",
           "year": "2014"
         }

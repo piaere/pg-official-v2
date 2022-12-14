@@ -8,15 +8,15 @@ const Header = () => {
         <Link to="/" className="name">
           Pierre Guerineau
         </Link>
-        <Link to="/music" className="section">
+        <Link to="/music" >
           music
         </Link>
       </div>
       <div className="right">
-        <Link to="/web" className="section">
+        <Link to="/web" >
           web
         </Link>
-        <span className="section">contact</span>
+        <span >contact</span>
       </div>
       <div className="sections"></div>
     </div>
