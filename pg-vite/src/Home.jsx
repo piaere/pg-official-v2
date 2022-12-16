@@ -1,6 +1,6 @@
 import "./css/Home.css";
 import Scroll from "./Scroll";
-// import pg from "./images/egoportrait-web-preview.jpg";
+// import pg from "./images/ego-web-preview.jpg";
 import pg from "./images/Pierre-Guerineau-ID.jpg";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Home = () => {
               style={{
                 "text-decoration": "underline",
                 "text-decoration-thickness": "1px",
-                "text-underline-offset":"6px"
+                "text-underline-offset":"5px"
               }}
               to="/music"
             >
@@ -28,7 +28,7 @@ const Home = () => {
               style={{
                 "text-decoration": "underline",
                 "text-decoration-thickness": "1px",
-                "text-underline-offset":"6px"
+                "text-underline-offset":"5px"
               }}
               to="/web"
             >

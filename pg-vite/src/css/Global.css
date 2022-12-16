@@ -94,5 +94,13 @@ a {
   letter-spacing: 5px;
   color: transparent;
   text-shadow: 0 0 5px rgba(0,0,0,1);
+  transition: all 3.5s ease-in-out;
+}
+
+.logo:hover{
+  /* color:grey; */
+  text-shadow: 0 0 2px rgb(69, 21, 69);
+  /* text-shadow: none; */
+
 }
 
