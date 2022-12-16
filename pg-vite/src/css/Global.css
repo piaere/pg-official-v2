@@ -11,9 +11,8 @@ body {
   height: 100%;
   background: rgb(249, 235, 241);
   font-family: PPNeueMontreal-Book;
-  font-size: 1em;
   margin: 5px 20px 0;
-  
+font-size: 1.05em;
 }
 body {
   line-height: 1.5;
@@ -54,20 +53,22 @@ a {
 
 @font-face {
   font-family: "PPNeueMontreal";
-  src: local("PPNeueMontreal-Book"),
-    url(./fonts/PPNeueMontreal-Book.woff) format("woff");
+  src: url(../fonts/PPNeueMontreal-Book.woff) format("woff");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+
 @font-face {
-  font-family: "PPHatton-Light";
-  src: local("PPHatton-Light"), url(./fonts/PPHatton-Light.woff) format("woff");
+  font-family: "Oracle";
+  src: url(../fonts/ABCOracle-Medium-Trial.woff2) format("woff2");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+
+
 @font-face {
   font-family: "ABCLaicaBItalicVariable";
-  src: local("ABCLaicaBItalicVariable-Trial"), url(./fonts/ABCLaicaBItalicVariable-Trial.woff) format("woff");
+  src: url(../fonts/ABCLaicaBItalicVariable-Trial.woff) format("woff");
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
@@ -87,6 +88,7 @@ a {
 .logo{
   display: flex;
   justify-content: center;
+  margin-top: 80px;
   font-size: 3.5rem;
   font-style: italic;
   letter-spacing: 5px;

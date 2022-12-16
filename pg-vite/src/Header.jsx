@@ -6,7 +6,7 @@ const Header = () => {
     <div className="container-header">
       <div className="left">
         <Link to="/" className="name">
-          Pierre Guerineau
+        ✹
         </Link>
         <Link to="/music" >
           music

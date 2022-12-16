@@ -1,18 +1,51 @@
 import "./css/Home.css";
 import Scroll from "./Scroll";
-import pg from "./images/pg-blue.jpg";
+// import pg from "./images/egoportrait-web-preview.jpg";
+import pg from "./images/Pierre-Guerineau-ID.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
       {" "}
       <div className="container">
-        <div className="description">
-          Pierre Guerineau is an artist working with music and web technologies
+        <div className="left-home">
+          <div className="PG">
+            {" "}
+            Pierre Guerineau is an artist working with{" "}
+            <Link
+              style={{
+                "text-decoration": "underline",
+                "text-decoration-thickness": "1px",
+                "text-underline-offset":"8px"
+              }}
+              to="/music"
+            >
+              music
+            </Link>{" "}
+            and{" "}
+            <Link
+              style={{
+                "text-decoration": "underline",
+                "text-decoration-thickness": "1px",
+                "text-underline-offset":"8px"
+              }}
+              to="/web"
+            >
+              web
+            </Link>{" "}
+            technologies ◌ offering creative services in Canada and abroad.
+          </div>
+          {/* <div className="description">
+            is an artist
+            <br />
+            working with music <br />
+            and web technologies
+          </div> */}
         </div>
         <img src={pg} alt="portrait" className="portrait"></img>
       </div>
-      <Scroll />
+      {/* <Scroll /> */}
     </>
   );
 };
