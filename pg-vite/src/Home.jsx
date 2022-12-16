@@ -17,7 +17,7 @@ const Home = () => {
               style={{
                 "text-decoration": "underline",
                 "text-decoration-thickness": "1px",
-                "text-underline-offset":"8px"
+                "text-underline-offset":"6px"
               }}
               to="/music"
             >
@@ -28,7 +28,7 @@ const Home = () => {
               style={{
                 "text-decoration": "underline",
                 "text-decoration-thickness": "1px",
-                "text-underline-offset":"8px"
+                "text-underline-offset":"6px"
               }}
               to="/web"
             >
