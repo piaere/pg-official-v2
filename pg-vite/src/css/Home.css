@@ -58,7 +58,17 @@ font-size: 2em;
     }
   }
 .portrait:hover {
-
   animation-play-state: paused;
+}
+
+.music-web{
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,1);
+  transition: all 1.1s ease-out;
+}
+.music-web:hover{
+  /* color:grey; */
+  text-shadow: 0 0 1.6px rgb(219, 78, 219);
+  /* text-shadow: none; */
 
 }

@@ -13,6 +13,7 @@
 
 .element:hover{
     background-color: rgb(249, 223, 235);;
+   
 }
 .element{
     padding: 5px 0;
@@ -23,8 +24,11 @@
 }
 
 .bio{
-
-    margin-left: 60%;
+    padding-top: 10vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 8vw;
+    /* margin-left: 60%;     */
     text-align: justify;
     /* border: 1px solid black; */
     /* font-size: 1.2em; */

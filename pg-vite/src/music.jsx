@@ -7,13 +7,22 @@ const Music = () => {
   return (
     <div className="music">
       <div className="logo">music ♪ </div>
-      {/* <div className="bio">
-              Composer, record producer and mixing engineer, Pierre Guerineau’s
-              work has been acclaimed in medias such as Pitchfork, The Guardian
-              and The New York Times and his performances presented by
-              international institutions such as Primavera Festival, Mutek or
-              Berghain.
-            </div> */}
+      <div className="bio">
+        <div>
+          Composer, record producer and mixing engineer, Pierre Guerineau’s work
+          has been acclaimed in medias such as Pitchfork, The Guardian and The
+          New York Times. <br />
+          His live performances presented by international institutions such as
+          Primavera Festival, Mutek or Berghain.
+        </div>
+        <div>
+          Composer, record producer and mixing engineer, Pierre Guerineau’s work
+          has been acclaimed in medias such as Pitchfork, The Guardian and The
+          New York Times. <br />
+          His live performances presented by international institutions such as
+          Primavera Festival, Mutek or Berghain.
+        </div>
+      </div>
       {data.map((e) => {
         const section = Object.keys(e);
         const content = e[section];
@@ -38,7 +47,6 @@ const Music = () => {
 
         return (
           <>
-          
             <div className="section">{title}</div>
             <div>
               {content.map((item) => {

@@ -13,25 +13,11 @@ const Home = () => {
           <div className="PG">
             {" "}
             Pierre Guerineau is an artist working with{" "}
-            <Link
-              style={{
-                "text-decoration": "underline",
-                "text-decoration-thickness": "1px",
-                "text-underline-offset":"5px"
-              }}
-              to="/music"
-            >
+            <Link className="music-web" to="/music">
               music
             </Link>{" "}
             and{" "}
-            <Link
-              style={{
-                "text-decoration": "underline",
-                "text-decoration-thickness": "1px",
-                "text-underline-offset":"5px"
-              }}
-              to="/web"
-            >
+            <Link className="music-web" to="/web">
               web
             </Link>{" "}
             technologies ◌ offering creative services in Canada and abroad.
