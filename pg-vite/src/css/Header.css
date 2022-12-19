@@ -1,12 +1,17 @@
+
+
 .container-header {
   display: flex;
   justify-content: space-between;
   padding: 3px 10px 0;
-
   font-family: PPNeueMontreal-Book;
   font-size: 1.4em;
-
   border-bottom: 1px solid black;
+  
+}
+
+.name:active{
+  color: rgb(219, 78, 219);
 }
 
 .left {

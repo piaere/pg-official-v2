@@ -1,5 +1,6 @@
 import "./css/music.css";
 import dataJSON from "./data.json";
+import gif from "./images/pg.gif";
 
 const Music = () => {
   const data = dataJSON.music;
@@ -12,8 +13,7 @@ const Music = () => {
           Composer, record producer and mixing engineer, Pierre Guerineau’s work
           has been acclaimed in medias such as Pitchfork, The Guardian and The
           New York Times. <br />
-          His live performances presented by international institutions such as
-          Primavera Festival, Mutek or Berghain.
+          His personal project
         </div>
         <div>
           Composer, record producer and mixing engineer, Pierre Guerineau’s work
@@ -53,7 +53,7 @@ const Music = () => {
                 // console.log("item", item);
                 const category = Object.keys(item);
                 // console.log("category", category);
-
+                
                 return (
                   <>
                     <div className="element">
@@ -67,6 +67,7 @@ const Music = () => {
                         );
                       })}
                     </div>
+                      {/* <div className="hide">test</div> */}
                   </>
                 );
               })}
@@ -74,6 +75,10 @@ const Music = () => {
           </>
         );
       })}
+      <div className="gif-center">
+      <img src={gif} className="gif"></img>
+      <div>2022</div>
+      </div>
     </div>
   );
 };

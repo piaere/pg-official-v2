@@ -13,6 +13,7 @@ body {
   font-family: PPNeueMontreal-Book;
   margin: 5px 20px 0;
 font-size: 0.93em;
+
 }
 body {
   line-height: 1.5;
@@ -51,6 +52,8 @@ a {
   text-decoration: inherit;
 }
 
+
+
 @font-face {
   font-family: "PPNeueMontreal";
   src: url(../fonts/PPNeueMontreal-Book.woff) format("woff");
@@ -88,7 +91,7 @@ a {
 .logo{
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 5vw;
   font-size: 3.5rem;
   font-style: italic;
   letter-spacing: 5px;
@@ -98,11 +101,21 @@ a {
 }
 
 .logo:hover{
-  /* color:grey; */
   text-shadow: 0 0 1.6px rgb(219, 78, 219);
-  /* text-shadow: none; */
   transform: scale(1.1);
-
-
 }
+/* 
+@media all and (max-width:700px) {
+  .logo{
+
+
+    margin-top: 80px;
+    font-size: 3.5rem;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    transition: all 3s ease-out;
+  }
+} */
 

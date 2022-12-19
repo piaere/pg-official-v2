@@ -3,28 +3,46 @@
 .section{
     letter-spacing: 1px;
     padding: 60px 0 10px;
-    /* border-top: 1px black solid; */
     font-family: ABCLaicaBItalicVariable-Trial;
     font-style: italic;
     font-size: 1.1em;
-    /* font-weight: 700; */
-
 }
 
-.element:hover{
-    background-color: rgb(249, 223, 235);;
-   
-}
 .element{
     padding: 5px 0;
     border-top: 1px black solid;
     display: grid;
     grid-template-columns: 1.15fr 1.75fr 1.5fr 0.5fr;
     gap: 0px 5px; 
+    transition: all 0.1s ease-in-out;
+
 }
 
+
+.element:hover{
+    
+    padding: 10px 0;
+    background-color: rgb(249, 223, 235);
+    cursor: pointer;
+}
+.element:active{
+    transform: skewX(-5deg)skewY(-1deg); 
+}
+
+/* .hide{
+    display: none;
+position: absolute;
+width: 5%;
+transition: all 0.1s ease-in-out;
+
+}
+
+.element:hover + .hide{
+    display: flex
+} */
+
 .bio{
-    padding-top: 10vh;
+    padding-top: 5vw;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 0px 8vw;
@@ -32,4 +50,18 @@
     text-align: justify;
     /* border: 1px solid black; */
     /* font-size: 1.2em; */
+}
+
+.gif{
+    border: 2px solid black;
+    border-radius: 5px;
+    scale:0.3;
+}
+
+.gif-center{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }

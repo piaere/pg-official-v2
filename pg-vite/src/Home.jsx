@@ -1,6 +1,4 @@
 import "./css/Home.css";
-import Scroll from "./Scroll";
-// import pg from "./images/ego-web-preview.jpg";
 import pg from "./images/Pierre-Guerineau-ID.jpg";
 import { Link } from "react-router-dom";
 
@@ -22,16 +20,38 @@ const Home = () => {
             </Link>{" "}
             technologies ◌ offering creative services in Canada and abroad.
           </div>
-          {/* <div className="description">
-            is an artist
-            <br />
-            working with music <br />
-            and web technologies
-          </div> */}
+          <div className="left-bottom">
+            <div className="social-contact">
+              <div className="social-contact-title">Social</div>
+              <a
+                className="tilt-link"
+                href="https://www.linkedin.com/in/piaere/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <br />
+              <a
+                href="https://www.instagram.com/feu.st.antoine/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </div>
+            <div className="social-contact">
+              <div className="social-contact-title">Contact</div>
+              <a href="mailto:polemoflora@gmail.com?subject=Let's work together!">
+                E-mail
+              </a>
+            </div>
+          </div>
         </div>
-        <img src={pg} alt="portrait" className="portrait"></img>
+        <div className="right-home">
+          <img src={pg} alt="portrait" className="portrait"></img>
+        </div>
       </div>
-      {/* <Scroll /> */}
     </>
   );
 };
