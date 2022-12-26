@@ -24,11 +24,11 @@
 
     padding: 10px 0;
     background-color: rgb(249, 223, 235);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .element:active {
-    transform: skewX(-5deg)skewY(-1deg);
+    /* transform: skewX(-5deg)skewY(-1deg); */
 }
 
 /* .hide{

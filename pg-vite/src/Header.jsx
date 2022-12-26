@@ -6,14 +6,21 @@ const Header = () => {
     <div className="fix">
       <div className="container-header">
         <div className="left">
-          <Link to="/" className="home-symbol">
+          <Link to="/" className="home-btn">
             ✦
           </Link>
-          <Link to="/music">music</Link>
+          <Link className="link-btn" to="/music">
+            music
+          </Link>
         </div>
         <div className="right">
-          <Link to="/web">web</Link>
-          <a href="mailto:polemoflora@gmail.com?subject=Let's work together!">
+          <Link className="link-btn" to="/web">
+            web
+          </Link>
+          <a
+            className="link-btn"
+            href="mailto:polemoflora@gmail.com?subject=Let's work together!"
+          >
             contact
           </a>
         </div>

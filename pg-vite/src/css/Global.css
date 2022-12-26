@@ -111,6 +111,7 @@ a {
   text-shadow: 0 0 1.6px rgb(219, 78, 219);
   transform: scale(1.1);
 }
+
 @media (max-width: 800px) {
   .container {
     grid-template-columns: auto;
@@ -118,16 +119,17 @@ a {
   }
 
 
-  .left-home{
+  .left-home {
     padding: 4% 6%;
   }
+
   .left-home-top {
     font-size: 8vw;
     margin: 20px 0px 40px 10px;
   }
 
   .left-home-bottom {
-    margin: 20px 0 27px 0 ;
+    margin: 20px 0 27px 0;
     justify-content: center;
   }
 
@@ -141,12 +143,16 @@ a {
     margin: 20px;
     max-width: 65vw;
   }
+
+  .music-web {
+    text-shadow: 0 0 0.7vw rgba(0, 0, 0, 1);
+  }
 }
 
 @media(max-width:550px) {
 
   .container-header {
-    font-size: 1.1em;
+    font-size: 1.2  em;
   }
 
   .logo {
@@ -179,6 +185,10 @@ a {
 
   .left-home-bottom {
     margin: 20px 0 27px 0;
+  }
+
+  .music-web {
+    text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
   }
 
 }

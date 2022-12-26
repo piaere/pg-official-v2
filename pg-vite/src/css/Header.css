@@ -8,7 +8,7 @@
 
 }
 
-.home-symbol {
+.home-btn {
   -webkit-transition-duration: 0.01s;
   -moz-transition-duration: 0.01s;
   -o-transition-duration: 0.1s;
@@ -19,13 +19,30 @@
   transition-property: transform;
 }
 
-.home-symbol:active {
+.home-btn:active {
   color: rgb(219, 78, 219);
-
   -webkit-transform: scale(1.4, 0.8);
   -ms-transform: scale(1.4, 0.8);
   transform: scale(0.7, 1.4);
+}
 
+.link-btn {
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform ease-out;
+}
+
+.link-btn:hover {
+  color: rgb(114, 101, 114);
+}
+.link-btn:active {
+  transform: scale(0.95, 1.05);
+  color: rgb(91, 63, 91);
 }
 
 .left {
