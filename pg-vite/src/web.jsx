@@ -1,7 +1,37 @@
+import React, { useEffect, useRef } from "react";
+
 const Web = () => {
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch((error) => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
+
   return (
-    <div className="music">
+    <>
+    
+    <div className="web">
       <div className="logo">web ❍</div>
+      <div>
+        <video
+          style={{ maxWidth: "100%" }}
+          playsInline
+          loop
+          muted
+
+          alt="All the devices"
+          src="https://archive.org/download/the-merge-demo/the-merge-demo.mov"
+          ref={videoEl}
+        />
+      </div>
       <div className="section">About</div>
       <div className="bio">
         <div className="bio-paragraph">
@@ -12,8 +42,8 @@ const Web = () => {
         <div></div>
         <div></div>
         <div className="bio-paragraph">
-          After graduating from Concordia University in June 2022, he started applying
-          his React/ JS/ CSS skills to build real-life projects, and
+          After graduating from Concordia University in June 2022, he started
+          applying his React/ JS/ CSS skills to build real-life projects, and
           experimenting with the 3D Library Three.js. He recently completed a
           Solidity bootcamp allowing him to deploy smart contracts on
           EVM-compatible blockchains and to incorporate web3 tooling in his
@@ -40,6 +70,7 @@ const Web = () => {
         </div> */}
       </div>
     </div>
+    </>
   );
 };
 

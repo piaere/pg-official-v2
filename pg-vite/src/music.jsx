@@ -102,8 +102,7 @@ const Music = () => {
       })}
       <div className="gif-center">
         <img src={gif} className="gif"></img>
-        <div>❧</div>
-        <div>2022</div>
+       
       </div>
     </div>
   );

@@ -2,10 +2,9 @@
   font-size: 1.4em;
   display: flex;
   justify-content: space-between;
-  padding: 3px 10px 0;
+  padding: 0 10px 0;
   font-family: PPNeueMontreal-Book;
   border-bottom: 1px solid black;
-
 }
 
 .home-btn {
@@ -40,8 +39,9 @@
 .link-btn:hover {
   color: rgb(114, 101, 114);
 }
+
 .link-btn:active {
-  transform: scale(0.95, 1.05);
+  /* transform: scale(0.95, 1.05); */
   color: rgb(91, 63, 91);
 }
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="fix">
+    <nav>
       <div className="container-header">
         <div className="left">
           <Link to="/" className="home-btn">
@@ -19,14 +19,14 @@ const Header = () => {
           </Link>
           <a
             className="link-btn"
-            href="mailto:polemoflora@gmail.com?subject=Let's work together!"
+            href="mailto:polemoflora@gmail.com?subject=Let's collaborate"
           >
             contact
           </a>
         </div>
         <div className="sections"></div>
       </div>
-    </div>
+    </nav>
   );
 };
 

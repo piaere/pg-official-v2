@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Header from "./Header";
 import Home from "./Home";
 import Music from "./music";
+import Footer from './Footer';
 import Web from "./web";
 import "./css/Global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/web" element={<Web />} />
       </Routes>
       </div>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>,
 )
