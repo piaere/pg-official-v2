@@ -1,0 +1,32 @@
+.web-bio {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 15px 60px; */
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    gap: 20px;
+    font-size: 2vw;
+    padding: 5% 3% 0 3%;
+    line-height: 2vw;
+    text-align: justify;
+}
+
+.item-1 {
+    grid-column: col-start / span 8;
+}
+
+.item-2 {
+    grid-column: col-start 6 / span 8;
+}
+
+.item-3 {
+    grid-column: col-start 3 / span 8;
+}
+
+.item-4 {
+    grid-column: col-start / span 4;
+}
+
+.item-5 {
+    grid-column: col-start 4 / span 8;
+}

@@ -16,7 +16,7 @@ const Music = () => {
           countless clients on records, films and remixes.
         </div>
         <div className="bio-paragraph">
-          Trained in sound engineering in France, Guerineau is at ease on both
+          Trained in sound engineering in France, Guerineau is at ease on either
           sides of the studio glass, finding creative and innovative solutions
           to express the artist's full potential, at every step of a project.
         </div>
@@ -36,8 +36,9 @@ const Music = () => {
         {/* <div></div> */}
         <div className="bio-paragraph">
           {" "}
-          His services are, but are not limited to, record production and arrangments, mixing
-          services, original music composition for film and media, and remixes.
+          His services are, but are not limited to, record production and
+          arrangments, mixing and mastering services, original music composition
+          for film and media, and remixes.
           {/* <br/>
           <a
             style={{ "font-style": "italic" }}
@@ -102,7 +103,6 @@ const Music = () => {
       })}
       <div className="gif-center">
         <img src={gif} className="gif"></img>
-       
       </div>
     </div>
   );

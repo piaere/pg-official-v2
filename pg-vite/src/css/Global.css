@@ -10,11 +10,11 @@
 
 html,
 body {
+  margin: 0 20px 0;
   font-size: 0.93em;
   height: 100%;
   background: rgb(249, 235, 241);
   font-family: PPNeueMontreal-Book;
-  margin: 0 20px 0;
 }
 
 body {
@@ -59,7 +59,10 @@ a {
 }
 
 nav {
-  background: rgb(249, 235, 241);
+  backdrop-filter: blur(5px);
+  /* background: rgb(249, 235, 241); */
+  /* background:transparent; */
+
   padding-top: 10px;
   top: 0;
   position: sticky;
@@ -70,8 +73,8 @@ nav {
 
 video {
   max-width: 100%;
-  border-radius: 2vw;
-  margin: 5vh auto;
+  border-radius: 5px;
+  margin: 5vh 0;
 
 }
 
@@ -101,9 +104,7 @@ video {
   border-top: 1px black solid;
 }
 
-.music {
-  margin: 50px 11%;
-}
+
 
 .web {
   margin: 50px 0;
@@ -165,6 +166,16 @@ video {
 
 @media(max-width:550px) {
 
+  html,
+  body {
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  nav {
+    backdrop-filter: blur(3px);
+  }
+
   .container-header {
     font-size: 1.2 em;
   }
@@ -173,28 +184,12 @@ video {
     font-size: 3rem;
   }
 
-  .music {
-    margin: 50px 3%;
-  }
-
   .bio {
     grid-template-columns: 1fr;
   }
 
-  html,
-  body {
-    font-size: 0.9em;
-  }
-
-  .left-home {
-    padding: 4% 0 0 0;
-  }
-
-
   .left-home-top {
-
     margin: 20px 0 40px 0;
-
   }
 
   .left-home-bottom {
@@ -204,20 +199,17 @@ video {
   .music-web {
     text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
   }
-
 }
 
 @media(max-width:290px) {
-
-
-
-  .logo {
-    font-size: 2.5rem;
-  }
 
   html,
   body {
     font-size: 0.8em;
     line-height: 1;
+  }
+
+  .logo {
+    font-size: 2.5rem;
   }
 }

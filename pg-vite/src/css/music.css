@@ -1,3 +1,7 @@
+.music {
+    margin: 50px 11%;
+  }
+  
 .section {
     letter-spacing: 1px;
     padding: 50px 0 10px;
@@ -13,53 +17,26 @@
     grid-template-columns: 1.15fr 1.75fr 1.5fr 0.5fr;
     gap: 0px 5px;
     transition: all 0.1s ease-in-out;
-
 }
 
 
 
 
 .element:hover {
-
-
     padding: 10px 0;
     background-color: rgb(249, 223, 235);
-    /* cursor: pointer; */
 }
-
-.element:active {
-    /* transform: skewX(-5deg)skewY(-1deg); */
-}
-
-/* .hide{
-    display: none;
-position: absolute;
-width: 5%;
-transition: all 0.1s ease-in-out;
-
-}
-
-.element:hover + .hide{
-    display: flex
-} */
 
 
 
 .bio {
     line-height: 17px;
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-
     gap: 15px 60px;
-
     text-align: justify;
-
 }
 
-/* .bio-paragraph{
-    width: 100%;
-} */
 
 .gif {
     border: 1px solid black;
@@ -74,7 +51,5 @@ transition: all 0.1s ease-in-out;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-bottom: 5vh; */
     border-top: 1px black solid;
-    /* border-bottom: 1px black solid; */
 }
