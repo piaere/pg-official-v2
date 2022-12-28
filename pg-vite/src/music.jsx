@@ -33,12 +33,20 @@ const Music = () => {
           imprint with <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne</i>,
           publishing his first solo record under the name <i>Feu St-Antoine</i>.
         </div>
+        <div className="bio-paragraph">
+          Named after historical cases of mass hallucinations in French
+          villages, <i>Feu St-Antoine</i>’s music reflects the subjectivity of
+          reality, both as a personal and socio-political construct. His work,
+          described as — a stunningly varied and layered masterclass in wordless
+          storytelling — is a playful exploration of music as a universal
+          language, where apparent contradictions sounds at home together.
+        </div>
         {/* <div></div> */}
         <div className="bio-paragraph">
           {" "}
           His services are, but are not limited to, record production and
-          arrangments, mixing and mastering services, original music composition
-          for film and media, and remixes.
+          arrangments, original music composition for film and media, mixing and
+          mastering services, and remixes.
           {/* <br/>
           <a
             style={{ "font-style": "italic" }}
