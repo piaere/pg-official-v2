@@ -32,16 +32,23 @@ const Web = () => {
             Guerineau graduates in Full-Stack Web Development at Concordia
             University in June 2022.
           </div>
-          <video
-            playsInline
-            loop
-            muted
-            alt="All the devices"
-            src={loop}
-            poster={thumbnail}
-            ref={videoEl}
-            className="item-2"
-          />
+          <div className="item-2">
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              pariatur ad quaerat quidem esse. Quaerat repellat temporibus minus
+              ipsam! Architecto vitae error voluptatem pariatur nulla dolorem
+              eos omnis! Dicta, vitae!
+            </div>
+            <video
+              playsInline
+              loop
+              muted
+              alt="All the devices"
+              src={loop}
+              poster={thumbnail}
+              ref={videoEl}
+            />
+          </div>
           {/* <div> Pierre Guerineau creates modern, fast and
             responsive web applications. Jr full-stack web developper based in
             Montreal,</div> */}

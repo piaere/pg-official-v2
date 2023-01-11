@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 * {
@@ -104,30 +104,38 @@ video {
   border-top: 1px black solid;
 }
 
-
-
 .web {
   margin: 50px 0;
 }
 
 .logo {
+  padding: 60px 0 40px;
+  font-size: 2.8vw;
   display: flex;
   justify-content: center;
-  margin-top: 5vw;
-  font-size: 3.5rem;
+  /* margin-top: 0vw; */
+  /* padding: 6%; */
+
+  /* height: 3.5rem; */
   font-style: italic;
   letter-spacing: 5px;
   color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 1.6px rgb(219, 78, 219);
   transition: all 3s ease-out;
 }
 
 .logo:hover {
-  text-shadow: 0 0 1.6px rgb(219, 78, 219);
   transform: scale(1.1);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 800px) {
+
+  html,
+  body {
+    margin: 0;
+  }
+
   .container {
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -162,13 +170,51 @@ video {
   .music-web {
     text-shadow: 0 0 0.7vw rgba(0, 0, 0, 1);
   }
+
+  .music-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .music-top-left {
+    margin: 40px 0;
+    justify-content: space-evenly;
+    height: 60vh;
+
+  }
+
+  .music-top-right {
+    border-left: none;
+  }
+
+  .logo {
+    padding: 0 0 25px;
+    font-size: 4.2vw;
+    letter-spacing: 3px;
+  }
+
+  .logo-container {
+    display: inline;
+    padding-left: 0px;
+    margin-right: 25px;
+  }
+
+  .section:first-child {
+    padding: 10px 0;
+  }
+
+  .bio-paragraph:last-of-type {
+    padding-bottom: 0;
+}
+
 }
 
 @media(max-width:550px) {
 
   html,
   body {
-    margin: 0;
     font-size: 0.9em;
   }
 
@@ -178,14 +224,6 @@ video {
 
   .container-header {
     font-size: 1.2 em;
-  }
-
-  .logo {
-    font-size: 3rem;
-  }
-
-  .bio {
-    grid-template-columns: 1fr;
   }
 
   .left-home-top {
@@ -199,6 +237,24 @@ video {
   .music-web {
     text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
   }
+
+  .music-top-left {
+
+    justify-content: center;
+    height: auto;
+
+  }
+
+  .logo {
+    padding: 0 0 30px;
+    font-size: 7.5vw;
+    letter-spacing: 2px;
+  }
+
+  .bio-paragraph {
+    padding: 0px 30px 15px 30px;
+  }
+
 }
 
 @media(max-width:290px) {
