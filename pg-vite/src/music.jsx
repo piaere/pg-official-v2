@@ -16,7 +16,7 @@ const Music = () => {
           countless clients on records, films and remixes.
         </div>
         <div className="bio-paragraph">
-          Trained in sound engineering in France, Guerineau is at ease on either
+          Trained in sound engineering in France, Guerineau is at ease on both
           sides of the studio glass, finding creative and innovative solutions
           to express the artist's full potential, at every step of a project.
         </div>
@@ -28,18 +28,19 @@ const Music = () => {
           <i> Berghain.</i>
         </div>
         <div className="bio-paragraph">
-          With personal projects including his duo with <i>Marie Davidson</i>,{" "}
-          <i>Essaie pas</i>. In 2020, he co-founded the <i>Éditions Appærent</i>{" "}
+          Aside his long-time collaboration with <i>Marie Davidson</i>,{" "}
+          <i>Essaie pas</i>, in 2020, he co-founded the <i>Éditions Appærent</i>{" "}
           imprint with <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne</i>,
           publishing his first solo record under the name <i>Feu St-Antoine</i>.
         </div>
         <div className="bio-paragraph">
           Named after historical cases of mass hallucinations in French
           villages, <i>Feu St-Antoine</i>’s music reflects the subjectivity of
-          reality, both as a personal and socio-political construct. His work,
-          described as — a stunningly varied and layered masterclass in wordless
-          storytelling — is a playful exploration of music as a universal
-          language, where apparent contradictions sounds at home together.
+          reality, both as a personal and socio-political construct. Blurring
+          lines between genres, Guerineau uses uncanny realism to create a
+          startling realm of sound. Colourful, poetic and gently unsettling, his
+          work displays — a stunningly varied and layered masterclass in
+          wordless storytelling (<i>Boomkat</i>).
         </div>
         {/* <div></div> */}
         <div className="bio-paragraph">
