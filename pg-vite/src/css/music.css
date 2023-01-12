@@ -24,55 +24,6 @@
     background-color: rgb(249, 223, 235);
 }
 
-.music-top {
-    line-height: 17px;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    gap: 15px 60px; */
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    /* gap: 0px 5%;  */
-    text-align: justify;
-    border-bottom: 1px black solid;
-}
-
-
-
-.music-top-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* padding-top: 7%; */
-    margin-bottom: 70px;
-    /* padding: 0% 2% 7%;    */
-}
-
-.logo-container {
-    display: flex;
-    padding-left: 42px;
-}
-
-.music-top-right {
-    border-left: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border-bottom: 1px black solid; */
-}
-
-.fsa {
-    width: auto;
-    height: 100%;
-    object-fit: cover;
-    object-position: 100% 0;
-}
-
-.bio-paragraph {
-    padding: 0px 70px 15px 40px;
-}
-
-
 
 
 .gif {
@@ -90,4 +41,3 @@
     align-items: center;
     border-top: 1px black solid;
 }
-

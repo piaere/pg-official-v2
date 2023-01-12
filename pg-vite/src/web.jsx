@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from "react";
 import loop from "./images/the-merge-logo-loop.mp4";
 import thumbnail from "./images/the-merge-logo-loop-thumbnail.jpg";
 import aegis from "./images/aegis-logo.jpg";
+import canvasArt from "./images/canvas-art-2.jpg";
+import art from "./images/14.jpg";
 import "./css/web.css";
-
 const Web = () => {
   const videoEl = useRef(null);
 
@@ -21,6 +22,45 @@ const Web = () => {
 
   return (
     <>
+      <div className="music-top">
+        <div className="music-top-right">
+          <img
+            src={art}
+            className="fsa"
+            alt="Feu St-Antoine by Maria Jose Govea"
+          ></img>
+        </div>
+        <div className="music-top-left">
+          <div className="logo-container">
+            <div className="logo"> ❍ web </div>
+          </div>
+          <div>
+            {/* <div className="section"> </div>   */}
+            <div className="bio-paragraph">
+              Driven by a life-long fascination for web technologies and a
+              desire to create tools that empower people and communities, Pierre
+              Guerineau graduates in Full-Stack Web Development at Concordia
+              University in June 2022.
+            </div>
+            <div className="bio-paragraph">
+              Applying his React, JS and CSS skills to build
+              real-life projects, he also started exploring the vast creative
+              possibilities of the 3D Library Three.js. He recently completed a
+              Solidity bootcamp allowing him to deploy smart contracts on
+              EVM-compatible blockchains and to incorporate web3 tooling in his
+              development toolbox.
+            </div>
+            <div className="bio-paragraph">
+              As human beings spend an increasing amount of their waking hours
+              navigating and interacting online, it seem essential to offer
+              users the intuitive and memorable experience we all deserve. With
+              an acute sense for elegant and minimal interface design, Pierre
+              Guerineau is passionate about creating organic and inviting
+              spaces.
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="web">
         <div className="logo">web ❍</div>
 
@@ -59,7 +99,7 @@ const Web = () => {
             EVM-compatible blockchains and to incorporate web3 tooling in his
             development toolbox.
           </div>
-          <img className="item-4" src={aegis}></img>
+          <img className="item-4" src={canvasArt}></img>
           <div className="item-5">
             As human beings spend an increasing amount of their waking hours
             navigating and interacting online, it seem essential to offer users
