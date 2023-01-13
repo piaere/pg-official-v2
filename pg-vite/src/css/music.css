@@ -24,7 +24,10 @@
     background-color: rgb(249, 223, 235);
 }
 
+.border-left{
+  border-left: 1px solid black;
 
+}
 
 .gif {
     border: 1px solid black;

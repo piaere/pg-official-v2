@@ -22,27 +22,27 @@ const Web = () => {
 
   return (
     <>
-      <div className="music-top">
-        <div className="music-top-right">
+      <div className="section-top">
+        <div className="section-top-img border-right">
           <img
             src={art}
-            className="fsa"
+            className="fsa web-crop"
             alt="Feu St-Antoine by Maria Jose Govea"
           ></img>
         </div>
-        <div className="music-top-left">
-          <div className="logo-container">
-            <div className="logo"> ❍ web </div>
+        <div className="section-top-txt margin-left">
+          <div className="logo-container logo-web">
+            <div className="logo logo-web">🌐 web </div>
           </div>
           <div>
             {/* <div className="section"> </div>   */}
-            <div className="bio-paragraph">
+            <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
               desire to create tools that empower people and communities, Pierre
               Guerineau graduates in Full-Stack Web Development at Concordia
               University in June 2022.
             </div>
-            <div className="bio-paragraph">
+            <div className="bio-paragraph less-padding">
               Applying his React, JS and CSS skills to build
               real-life projects, he also started exploring the vast creative
               possibilities of the 3D Library Three.js. He recently completed a
@@ -50,7 +50,7 @@ const Web = () => {
               EVM-compatible blockchains and to incorporate web3 tooling in his
               development toolbox.
             </div>
-            <div className="bio-paragraph">
+            <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
               navigating and interacting online, it seem essential to offer
               users the intuitive and memorable experience we all deserve. With

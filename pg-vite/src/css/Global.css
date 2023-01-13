@@ -125,7 +125,7 @@ video {
   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
-.music-top {
+.section-top {
   line-height: 17px;
   display: grid;
   grid-auto-rows: 1fr;
@@ -134,7 +134,7 @@ video {
   border-bottom: 1px black solid;
 }
 
-.music-top-left {
+.section-top-txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,13 +142,11 @@ video {
 }
 
 .logo-container {
-  display: flex;
   padding-left: 42px;
+  display: flex;
 }
 
-.music-top-right {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+.section-top-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +164,29 @@ video {
 }
 
 
-@media (max-width: 800px) {
+@media(max-width: 1050px) {
+
+  .logo {
+    padding: 60px 0 15px;
+  }
+
+  .logo-container {
+    padding-left: 40px;
+  }
+
+  .logo-container.logo-web {
+    padding-left: 20px;
+  }
+
+  .bio-paragraph.less-padding {
+    padding: 0px 0px 15px 20px;
+  }
+
+
+
+}
+
+@media(max-width: 800px) {
 
   html,
   body {
@@ -208,26 +228,32 @@ video {
     text-shadow: 0 0 0.7vw rgba(0, 0, 0, 1);
   }
 
-  .music-top {
+  .section-top {
     display: flex;
     flex-direction: column;
   }
 
-
-
-  .music-top-left {
+  .section-top-txt {
     margin: 40px 0;
     justify-content: space-evenly;
-    height: 60vh;
+    height: 52vh;
 
   }
 
-  .music-top-right {
+  .section-top-img {
     border-left: none;
   }
 
+  .section-top-img.border-right {
+    border-bottom: 1px solid black;
+  }
+
+  .section-top-img.border-left {
+    border-top: 1px solid black;
+  }
+
   .logo {
-    padding: 0 0 25px;
+    padding: 0 0 0px;
     font-size: 4.2vw;
     letter-spacing: 3px;
   }
@@ -242,9 +268,28 @@ video {
     padding: 10px 0;
   }
 
+  .bio-paragraph {
+    padding: 0px 80px 15px 80px;
+  }
+
+  .bio-paragraph.less-padding {
+    padding: 0px 80px 15px 80px;
+  }
+
+  .bio-paragraph.less-padding-music {
+    /* padding: 0px 80px 15px 80px; */
+
+  }
+
+
   .bio-paragraph:last-of-type {
     padding-bottom: 0;
-}
+  }
+
+  .fsa.web-crop {
+    height: 25vh;
+    object-position: 100% 100%;
+  }
 
 }
 
@@ -275,15 +320,13 @@ video {
     text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
   }
 
-  .music-top-left {
-
+  .section-top-txt {
     justify-content: center;
     height: auto;
-
   }
 
   .logo {
-    padding: 0 0 30px;
+    padding: 0 0 40px;
     font-size: 7.5vw;
     letter-spacing: 2px;
   }
@@ -292,6 +335,13 @@ video {
     padding: 0px 30px 15px 30px;
   }
 
+  .bio-paragraph.less-padding {
+    padding: 0px 30px 15px 30px;
+  }
+
+  .fsa.web-crop {
+    height: 25vh;
+  }
 }
 
 @media(max-width:290px) {
