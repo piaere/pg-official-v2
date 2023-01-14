@@ -38,25 +38,25 @@ const Web = () => {
             {/* <div className="section"> </div>   */}
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
-              desire to create tools that empower people and communities, Pierre
-              Guerineau graduates in Full-Stack Web Development at Concordia
-              University in June 2022.
+              desire to create tools that empower people and communities, in
+              June 2022 Pierre Guerineau graduates from Concordia University in
+              Full-Stack Web Development.
             </div>
             <div className="bio-paragraph less-padding">
-              Applying his React, JS and CSS skills to build
-              real-life projects, he also started exploring the vast creative
-              possibilities of the 3D Library Three.js. He recently completed a
-              Solidity bootcamp allowing him to deploy smart contracts on
-              EVM-compatible blockchains and to incorporate web3 tooling in his
-              development toolbox.
+              Applying his React, JS and CSS skills to build real-life projects,
+              he also started exploring the vast creative possibilities of the
+              3D Library Three.js. He recently completed a Solidity bootcamp
+              allowing him to deploy smart contracts on EVM-compatible
+              blockchains and to incorporate web3 tooling in his development
+              toolbox.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
               navigating and interacting online, it seem essential to offer
               users the intuitive and memorable experience we all deserve. With
-              an acute sense for elegant and minimal interface design, Pierre
-              Guerineau is passionate about creating organic and inviting
-              spaces.
+              an acute sense for elegant and clear interface design, Pierre
+              Guerineau is passionate about offering clients organic and
+              inviting spaces.
             </div>
           </div>
         </div>

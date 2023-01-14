@@ -8,6 +8,7 @@ import Web from "./web";
 import "./css/Global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
        <BrowserRouter>

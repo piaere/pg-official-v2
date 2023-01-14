@@ -47,11 +47,12 @@ const Music = () => {
             <div className="bio-paragraph ">
               Named after historical cases of mass hallucinations in French
               villages, <i>Feu St-Antoine</i>’s music reflects the subjectivity
-              of reality, both as a personal and socio-political construct.
-              Blurring lines between genres, Guerineau uses uncanny realism to
-              create a startling realm of sound. Colourful, poetic and gently
-              unsettling, his work displays — a stunningly varied and layered
-              masterclass in wordless storytelling (<i>Boomkat</i>).
+              of the experience of reality, both as a personal and
+              socio-political construct. Blurring lines between genres,
+              Guerineau uses uncanny realism to create a startling realm of
+              sound. Colourful, poetic and gently unsettling, his work displays
+              — a stunningly varied and layered masterclass in wordless
+              storytelling (<i>Boomkat</i>).
             </div>
             {/* <div></div> */}
             <div className="bio-paragraph ">

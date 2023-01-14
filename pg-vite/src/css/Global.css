@@ -123,6 +123,8 @@ video {
 .logo:hover {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  letter-spacing: 8px;
+  padding-left: 8px;
 }
 
 .section-top {
@@ -320,6 +322,10 @@ video {
     text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
   }
 
+  .music {
+    font-size: 0.9em;
+  }
+
   .section-top-txt {
     justify-content: center;
     height: auto;
@@ -329,7 +335,14 @@ video {
     padding: 0 0 40px;
     font-size: 7.5vw;
     letter-spacing: 2px;
+    text-shadow: 0 0 2px rgb(219, 78, 219);
   }
+
+
+.logo:hover {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+  letter-spacing: 4px;
+}
 
   .bio-paragraph {
     padding: 0px 30px 15px 30px;
