@@ -1,41 +1,31 @@
 import "./css/Header.css";
-import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useLocation, Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Header = () => {
-
+  
   // BACK TO TOP OF PAGE ON CLICK WHEN NAVIGATING
-  const [navClick, setNavClick] = useState();
+  const { pathname } = useLocation();
+
+  console.log(pathname)
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [navClick]);
+  }, [pathname]);
 
   return (
     <nav>
       <div className="container-header">
         <div className="left">
-          <Link
-            to="/"
-            className="home-btn"
-            onClick={() => setNavClick(!navClick)}
-          >
+          <Link to="/" className="home-btn">
             ✦
           </Link>
-          <Link
-            className="link-btn"
-            to="/music"
-            onClick={() => setNavClick(!navClick)}
-          >
+          <Link className="link-btn" to="/music">
             music
           </Link>
         </div>
         <div className="right">
-          <Link
-            className="link-btn"
-            to="/web"
-            onClick={() => setNavClick(!navClick)}
-          >
+          <Link className="link-btn" to="/web">
             web
           </Link>
           <a
@@ -45,7 +35,6 @@ const Header = () => {
             contact
           </a>
         </div>
-        <div className="sections"></div>
       </div>
     </nav>
   );

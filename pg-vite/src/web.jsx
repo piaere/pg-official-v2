@@ -6,6 +6,7 @@ import canvasArt from "./images/canvas-art-2.jpg";
 import art from "./images/14.jpg";
 import "./css/web.css";
 const Web = () => {
+  
   const videoEl = useRef(null);
 
   const attemptPlay = () => {
@@ -44,8 +45,8 @@ const Web = () => {
             </div>
             <div className="bio-paragraph less-padding">
               Applying his React, JS and CSS skills to build real-life projects,
-              he also started exploring the vast creative possibilities of the
-              3D Library Three.js. He recently completed a Solidity bootcamp
+              he also started exploring the creative possibilities of the 3D
+              Library Three.js. He recently completed a Solidity bootcamp
               allowing him to deploy smart contracts on EVM-compatible
               blockchains and to incorporate web3 tooling in his development
               toolbox.
@@ -53,32 +54,23 @@ const Web = () => {
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
               navigating and interacting online, it seem essential to offer
-              users the intuitive and memorable experience we all deserve. With
-              an acute sense for elegant and clear interface design, Pierre
-              Guerineau is passionate about offering clients organic and
-              inviting spaces.
+              users the intuitive and smooth experience we all deserve. With an
+              acute sense for elegant and clear interface design, Pierre
+              Guerineau is commited to offer clients organic and inviting
+              spaces.
             </div>
           </div>
         </div>
       </div>
       <div className="web">
-        <div className="logo">web ❍</div>
-
-        {/* <div className="section">About</div> */}
-        <div className="web-bio">
-          <div className="item-1">
+        <div className="section-top">
+          <div className="">
             Driven by a life-long fascination for web technologies and a desire
             to create tools that empower people and communities, Pierre
             Guerineau graduates in Full-Stack Web Development at Concordia
             University in June 2022.
           </div>
-          <div className="item-2">
-            <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-              pariatur ad quaerat quidem esse. Quaerat repellat temporibus minus
-              ipsam! Architecto vitae error voluptatem pariatur nulla dolorem
-              eos omnis! Dicta, vitae!
-            </div>
+          <div className="">
             <video
               playsInline
               loop
@@ -92,15 +84,15 @@ const Web = () => {
           {/* <div> Pierre Guerineau creates modern, fast and
             responsive web applications. Jr full-stack web developper based in
             Montreal,</div> */}
-          <div className="item-3">
+          <div className="">
             Applying his React/ JS/ CSS skills to build real-life projects, and
             experimenting with the 3D Library Three.js. He recently completed a
             Solidity bootcamp allowing him to deploy smart contracts on
             EVM-compatible blockchains and to incorporate web3 tooling in his
             development toolbox.
           </div>
-          <img className="item-4" src={canvasArt}></img>
-          <div className="item-5">
+          <img className="" src={canvasArt}></img>
+          <div className="">
             As human beings spend an increasing amount of their waking hours
             navigating and interacting online, it seem essential to offer users
             the intuitive and memorable experience we all deserve. With an acute

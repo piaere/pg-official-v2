@@ -1,7 +1,6 @@
-*,
-*::before,
-*::after {
-  /* box-sizing: border-box; */
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 * {
@@ -75,8 +74,8 @@ video {
   max-width: 100%;
   border-radius: 5px;
   margin: 5vh 0;
-
 }
+
 
 @font-face {
   font-family: "PPNeueMontreal";

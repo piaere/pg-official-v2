@@ -101,15 +101,12 @@ const Music = () => {
               <div className="section">{title}</div>
               <div>
                 {content.map((item) => {
-                  // console.log("item", item);
                   const category = Object.keys(item);
-                  // console.log("category", category);
 
                   return (
                     <>
                       <div className="element">
                         {category.map((e) => {
-                          // console.log("item[e]", item[e]);
                           const element = item[e];
                           return (
                             <>
@@ -118,7 +115,6 @@ const Music = () => {
                           );
                         })}
                       </div>
-                      {/* <div className="hide">test</div> */}
                     </>
                   );
                 })}
