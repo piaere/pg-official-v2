@@ -31,16 +31,16 @@ const Music = () => {
             <div className="bio-paragraph ">
               His work has been acclaimed in medias such as{" "}
               <i>NME, Pitchfork, The Guardian </i>
-              and <i>The New York Times</i>; his live performances presented by
-              international institutions such as{" "}
+              and <i>The New York Times;</i> and his live performances presented
+              by international institutions such as{" "}
               <i>Primavera Festival, Mutek</i> or
               <i> Berghain.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside his long-time collaboration with <i>Marie Davidson</i>,{" "}
-              <i>Essaie pas</i>, in 2020, he co-founded the{" "}
+              Aside his long-time collaboration with <i>Marie Davidson,</i>{" "}
+              <i>Essaie pas,</i> in 2020, he co-founded the{" "}
               <i>Éditions Appærent</i> imprint with{" "}
-              <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne</i>,
+              <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
               publishing his first solo record under the name{" "}
               <i>Feu St-Antoine</i>.
             </div>

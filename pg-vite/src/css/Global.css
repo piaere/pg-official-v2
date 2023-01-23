@@ -5,7 +5,6 @@
 
 * {
   margin: 0;
-  color: aqua;
 }
 
 html,
@@ -14,7 +13,7 @@ body {
   font-size: 0.93em;
   height: 100%;
   background: rgb(249, 235, 241);
-  font-family: PPNeueMontreal-Book;
+  font-family: PPNeueMontreal;
 }
 
 body {
@@ -60,15 +59,11 @@ a {
 
 nav {
   backdrop-filter: blur(5px);
-  /* background: rgb(249, 235, 241); */
-  /* background:transparent; */
-
+  -webkit-backdrop-filter: blur(5px);
   padding-top: 11px;
   top: 0;
   position: sticky;
   position: -webkit-sticky;
-
-
 }
 
 video {
@@ -80,22 +75,23 @@ video {
 
 @font-face {
   font-family: "PPNeueMontreal";
-  src: url(../fonts/PPNeueMontreal-Book.woff) format("woff");
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+  src: url(../fonts/PPNeueMontreal-Book.woff) format("woff"),
+    url(../fonts/PPNeueMontreal-Book.woff2) format("woff2"),
+    url(../fonts/PPNeueMontreal-Book.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Oracle";
-  src: url(../fonts/ABCOracle-Medium-Trial.woff2) format("woff2");
+  src: url(../fonts/ABCOracle-Medium-Trial.woff) format("woff"),
+    url(../fonts/ABCOracle-Medium-Trial.woff2) format("woff2"),
+    url(../fonts/ABCOracle-Medium-Trial.ttf) format("truetype");
 }
 
 
 @font-face {
   font-family: "ABCLaicaBItalicVariable";
-  src: url(../fonts/ABCLaicaBItalicVariable-Trial.woff) format("woff");
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+  src: url(../fonts/ABCLaicaBItalicVariable-Trial.woff) format("woff") url(../fonts/ABCLaicaBItalicVariable-Trial.woff2) format("woff2"),
+    url(../fonts/ABCLaicaBItalicVariable-Trial.ttf) format("truetype");
 }
 
 .page {
@@ -304,6 +300,7 @@ video {
 
   nav {
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
   }
 
   .container-header {
@@ -339,10 +336,10 @@ video {
   }
 
 
-.logo:hover {
-  text-shadow: 0 0 3px rgba(0, 0, 0, 1);
-  letter-spacing: 4px;
-}
+  .logo:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    letter-spacing: 4px;
+  }
 
   .bio-paragraph {
     padding: 0px 30px 15px 30px;
