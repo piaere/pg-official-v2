@@ -37,7 +37,7 @@ const Music = () => {
               <i> Berghain.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside his long-time collaboration with <i>Marie Davidson,</i>{" "}
+              Aside his long-time collaboration with <i>Marie Davidson :</i>{" "}
               <i>Essaie pas,</i> in 2020, he co-founded the{" "}
               <i>Éditions Appærent</i> imprint with{" "}
               <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
@@ -46,13 +46,11 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               Named after historical cases of mass hallucinations in French
-              villages, <i>Feu St-Antoine</i>’s music reflects the subjectivity
-              of the experience of reality, both as a personal and
-              socio-political construct. Blurring lines between genres,
-              Guerineau uses uncanny realism to create a startling realm of
-              sound. Colourful, poetic and gently unsettling, his work displays
-              — a stunningly varied and layered masterclass in wordless
-              storytelling (<i>Boomkat</i>).
+              villages, <i>Feu St-Antoine's</i> music blurs the lines between
+              genres, using uncanny realism to create a startling realm of
+              sound. Colourful, poetic and gently unsettling, Guerineau's
+              work here displays — a stunningly varied and layered masterclass in
+              wordless storytelling <i>(Boomkat).</i>
             </div>
             {/* <div></div> */}
             <div className="bio-paragraph ">

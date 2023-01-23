@@ -213,8 +213,8 @@ video {
 
 
   .PG {
-    font-size: 6vw;
     line-height: 6vw;
+    font-size: 6vw;
   }
 
   .portrait {
@@ -308,7 +308,7 @@ video {
   }
 
   .left-home-top {
-    margin: 20px 0 40px 0;
+    margin: 20px 0;
   }
 
   .left-home-bottom {
@@ -316,7 +316,7 @@ video {
   }
 
   .music-web {
-    text-shadow: 0 0 0.85vw rgba(0, 0, 0, 1);
+    text-shadow: 0 0 0.65vw rgba(0, 0, 0, 1);
   }
 
   .music {
@@ -342,11 +342,11 @@ video {
   }
 
   .bio-paragraph {
-    padding: 0px 30px 15px 30px;
+    padding: 0px 20px 15px 20px;
   }
 
   .bio-paragraph.less-padding {
-    padding: 0px 30px 15px 30px;
+    padding: 0px 20px 15px 20px;
   }
 
   .fsa.web-crop {

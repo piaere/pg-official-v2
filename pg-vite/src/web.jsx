@@ -6,7 +6,6 @@ import canvasArt from "./images/canvas-art-2.jpg";
 import art from "./images/14.jpg";
 import "./css/web.css";
 const Web = () => {
-  
   const videoEl = useRef(null);
 
   const attemptPlay = () => {
@@ -44,12 +43,11 @@ const Web = () => {
               Full-Stack Web Development.
             </div>
             <div className="bio-paragraph less-padding">
-              Applying his React, JS and CSS skills to build real-life projects,
-              he also started exploring the creative possibilities of the 3D
-              Library Three.js. He recently completed a Solidity bootcamp
-              allowing him to deploy smart contracts on EVM-compatible
-              blockchains and to incorporate web3 tooling in his development
-              toolbox.
+              Using React, Javascript and CSS, he quickly started
+              incorporating the 3D Library Three.js in his web applications. He
+              recently completed a Solidity bootcamp allowing him to deploy
+              smart contracts on EVM-compatible blockchains and to incorporate
+              web3 tooling in his development toolbox.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
@@ -66,7 +64,7 @@ const Web = () => {
         <div className="section-top">
           <div className="">
             Driven by a life-long fascination for web technologies and a desire
-            to create tools that empower people and communities, Pierre
+            to create empowering tools for individuals and communities, Pierre
             Guerineau graduates in Full-Stack Web Development at Concordia
             University in June 2022.
           </div>
@@ -85,11 +83,11 @@ const Web = () => {
             responsive web applications. Jr full-stack web developper based in
             Montreal,</div> */}
           <div className="">
-            Applying his React/ JS/ CSS skills to build real-life projects, and
-            experimenting with the 3D Library Three.js. He recently completed a
-            Solidity bootcamp allowing him to deploy smart contracts on
-            EVM-compatible blockchains and to incorporate web3 tooling in his
-            development toolbox.
+            Building using React, Javascript and CSS, he quickly started
+            incorporating the 3D Library Three.js in his web applications. He
+            recently completed a Solidity bootcamp allowing him to deploy smart
+            contracts on EVM-compatible blockchains and to incorporate web3
+            tooling in his development toolbox.
           </div>
           <img className="" src={canvasArt}></img>
           <div className="">
