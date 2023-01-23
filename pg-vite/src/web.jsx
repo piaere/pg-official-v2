@@ -1,23 +1,31 @@
 import React, { useEffect, useRef } from "react";
-import loop from "./images/the-merge-logo-loop.mp4";
+import aegisVideo from "./images/aegis-loop.webm";
+import mergeVideo from "./images/the-merge-demo.webm";
 import thumbnail from "./images/the-merge-logo-loop-thumbnail.jpg";
-import aegis from "./images/aegis-logo.jpg";
-import canvasArt from "./images/canvas-art-2.jpg";
 import art from "./images/14.jpg";
 import "./css/web.css";
 const Web = () => {
-  const videoEl = useRef(null);
+  const video1 = useRef(null);
+  const video2 = useRef(null);
 
-  const attemptPlay = () => {
-    videoEl &&
-      videoEl.current &&
-      videoEl.current.play().catch((error) => {
+  const attemptPlay1 = () => {
+    video1 &&
+      video1.current &&
+      video1.current.play().catch((error) => {
+        console.error("Error attempting to play", error);
+      });
+  };
+  const attemptPlay2 = () => {
+    video2 &&
+      video2.current &&
+      video2.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
   };
 
   useEffect(() => {
-    attemptPlay();
+    attemptPlay1();
+    attemptPlay2();
   }, []);
 
   return (
@@ -35,7 +43,6 @@ const Web = () => {
             <div className="logo logo-web">🌐 web </div>
           </div>
           <div>
-            {/* <div className="section"> </div>   */}
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
               desire to create tools that empower people and communities, in
@@ -43,11 +50,11 @@ const Web = () => {
               Full-Stack Web Development.
             </div>
             <div className="bio-paragraph less-padding">
-              Using React, Javascript and CSS, he quickly started
-              incorporating the 3D Library Three.js in his web applications. He
-              recently completed a Solidity bootcamp allowing him to deploy
-              smart contracts on EVM-compatible blockchains and to incorporate
-              web3 tooling in his development toolbox.
+              Using React, Javascript and CSS, he quickly started incorporating
+              the 3D Library Three.js in his web applications. He recently
+              completed a Solidity bootcamp allowing him to deploy smart
+              contracts on EVM-compatible blockchains and to incorporate web3
+              tooling in his development toolbox.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
@@ -61,54 +68,82 @@ const Web = () => {
         </div>
       </div>
       <div className="web">
-        <div className="section-top">
-          <div className="">
-            Driven by a life-long fascination for web technologies and a desire
-            to create empowering tools for individuals and communities, Pierre
-            Guerineau graduates in Full-Stack Web Development at Concordia
-            University in June 2022.
+        <div className="web-section">Few projects</div>
+
+        <div className="section-bottom">
+          <div className="section-bottom-txt">
+            <div className="web-project-title">aegis</div>
+            <div className="web-paragraph">
+              aegis is a non-custodial open plateform for writers and readers to
+              interact directly. Users can support their favourite creators with
+              a p2p tipping function. Log in and paiements are done using
+              MetaMask and the Ethereum blockchain.
+            </div>
+            <div className="web-paragraph">
+              The front-end has been built using React, the backend with Node.js
+              and I’m using Mongodb for the database.
+            </div>
+            <div className="web-paragraph">
+              Thanks to the characteristics of blockchain technology, high
+              security is maintain for authentification and paiements thruout
+              the website. No sensitive personal data, email, password needs to
+              be stored, to the exception of the articles themselves, the users
+              public addresses as well as public informations provided by the
+              Ethereum Name Service API if the user has its account registered.
+            </div>
+            <div className="web-paragraph">
+              <a
+                className="tilt-link"
+                href="https://github.com/piaere/final-project-aegis"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </div>
           </div>
-          <div className="">
+          <div className="video-container">
             <video
               playsInline
               loop
               muted
               alt="All the devices"
-              src={loop}
+              src={aegisVideo}
               poster={thumbnail}
-              ref={videoEl}
+              ref={video2}
             />
           </div>
-          {/* <div> Pierre Guerineau creates modern, fast and
-            responsive web applications. Jr full-stack web developper based in
-            Montreal,</div> */}
-          <div className="">
-            Building using React, Javascript and CSS, he quickly started
-            incorporating the 3D Library Three.js in his web applications. He
-            recently completed a Solidity bootcamp allowing him to deploy smart
-            contracts on EVM-compatible blockchains and to incorporate web3
-            tooling in his development toolbox.
-          </div>
-          <img className="" src={canvasArt}></img>
-          <div className="">
-            As human beings spend an increasing amount of their waking hours
-            navigating and interacting online, it seem essential to offer users
-            the intuitive and memorable experience we all deserve. With an acute
-            sense for elegant and minimal interfaces design, Guerineau curates
-            organic and inviting spaces.
-          </div>
-          {/* <div className="bio-paragraph">
-          With personal projects including his duo with <i>Marie Davidson</i>,{" "}
-          <i>Essaie pas</i>. In 2020, he co-founded the <i>Éditions Appærent</i>{" "}
-          imprint with <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne</i>,
-          publishing his first solo record under the name <i>Feu St-Antoine</i>.
         </div>
-
-        <div className="bio-paragraph">
-          His services are, but are not limited to, record production and
-          arrangments, mixing services, original music composition for film and
-          media, and remixes.
-        </div> */}
+        <div className="section-bottom">
+          <div className="section-bottom-txt">
+            <div className="web-project-title">The Merge</div>
+            <div className="web-paragraph">
+              Built for the Ethereum Foundation in few days.
+            </div>
+            <div className="web-paragraph">Using Vite and Three.js</div>
+            <div className="web-paragraph">
+              {" "}
+              <a
+                className="tilt-link"
+                href="https://github.com/piaere/three-demo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="video-container">
+            <video
+              playsInline
+              loop
+              muted
+              alt="All the devices"
+              src={mergeVideo}
+              poster={thumbnail}
+              ref={video1}
+            />
+          </div>
         </div>
       </div>
     </>

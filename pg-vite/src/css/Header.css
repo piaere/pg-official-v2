@@ -1,9 +1,9 @@
 .container-header {
+  font-family: PPNeueMontreal, Century Gothic, sans-serif;
   font-size: 1.4em;
   display: flex;
   justify-content: space-between;
   padding: 0 10px 0;
-  font-family: PPNeueMontreal, Century Gothic, sans-serif;
   border-bottom: 1px solid black;
 }
 
