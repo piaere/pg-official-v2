@@ -1,21 +1,20 @@
 import React, { useEffect, useRef } from "react";
 import aegisVideo from "./images/aegis-loop.webm";
 import mergeVideo from "./images/the-merge-demo.webm";
-import thumbnail from "./images/the-merge-logo-loop-thumbnail.jpg";
+import thumbnailTheMerge from "./images/the-merge-logo-loop-thumbnail.jpg";
+import thumbnailAegis from "./images/aegis1.jpg";
 import art from "./images/14.jpg";
 import "./css/web.css";
 const Web = () => {
   const video1 = useRef(null);
   const video2 = useRef(null);
 
-  const attemptPlay1 = () => {
+  const attemptPlay = () => {
     video1 &&
       video1.current &&
       video1.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
-  };
-  const attemptPlay2 = () => {
     video2 &&
       video2.current &&
       video2.current.play().catch((error) => {
@@ -24,8 +23,7 @@ const Web = () => {
   };
 
   useEffect(() => {
-    attemptPlay1();
-    attemptPlay2();
+    attemptPlay();
   }, []);
 
   return (
@@ -105,11 +103,12 @@ const Web = () => {
           <div className="video-container">
             <video
               playsInline
+              autoplay
               loop
               muted
               alt="All the devices"
               src={aegisVideo}
-              poster={thumbnail}
+              poster={thumbnailAegis}
               ref={video2}
             />
           </div>
@@ -136,11 +135,12 @@ const Web = () => {
           <div className="video-container">
             <video
               playsInline
+              autoplay
               loop
               muted
               alt="All the devices"
               src={mergeVideo}
-              poster={thumbnail}
+              poster={thumbnailTheMerge}
               ref={video1}
             />
           </div>

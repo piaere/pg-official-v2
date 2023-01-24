@@ -178,9 +178,7 @@ video {
 
 .web-project-title {
   font-family: PPNeueMontreal, Century Gothic, sans-serif;
-  /* padding-bottom: 100px; */
   height: 80px;
-  /* width: 100%; */
   font-size: 4em;
 
 }
@@ -200,22 +198,7 @@ video {
   flex-direction: column;
   justify-content: center;
   padding: 0 50px 0 20px;
-
-  /* border-right: 1px black solid; */
-  /* border-bottom: 1px black solid; */
 }
-
-/*  */
-/* @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
-
-.logo-container{
-  margin: 50px 0;
-}
-
-
-  } */
-
-
 
 @media(max-width: 1050px) {
 

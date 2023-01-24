@@ -8,11 +8,14 @@ import Web from "./web";
 import "./css/Global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
+  
   <React.StrictMode>
     <BrowserRouter>
       <Header />
-      <div className="page">
+      <div className="page" >
 
         <Routes>
           <Route exact path="/" element={<Home />} />

@@ -1,17 +1,13 @@
 import "./css/music.css";
 import dataJSON from "./data.json";
 import gif from "./images/pg.gif";
-import pgByLou from "./images/pg-by-lou-scamble.jpg";
-import FSA from "./images/FSA-by-Maria-Jose-Govea.jpeg";
 import FSA2 from "./images/FSA-by-Maria-Jose-Govea-3.jpeg";
 
 const Music = () => {
   const data = dataJSON.music;
 
-
   return (
     <>
-    
       <div className="section-top mobile-landscape">
         <div className="section-top-txt">
           <div className="logo-container">
