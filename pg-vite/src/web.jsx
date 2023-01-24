@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import aegisVideo from "./images/aegis-loop.webm";
 import mergeVideo from "./images/the-merge-demo.webm";
 import thumbnailTheMerge from "./images/the-merge-logo-loop-thumbnail.jpg";
-import thumbnailAegis from "./images/aegis1.jpg";
+import thumbnailAegis from "./images/aegis2.jpg";
 import art from "./images/14.jpg";
 import "./css/web.css";
 const Web = () => {
