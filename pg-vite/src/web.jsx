@@ -45,16 +45,9 @@ const Web = () => {
           <div className="bio">
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
-              desire to create tools that empower people and communities, in
-              June 2022 Pierre Guerineau graduates from Concordia University in
+              desire to create empowering tools for individuals and communities,
+              in 2022 Pierre Guerineau graduates from Concordia University in
               Full-Stack Web Development.
-            </div>
-            <div className="bio-paragraph less-padding">
-              Using React, Javascript and CSS, he quickly started incorporating
-              the 3D Library Three.js in his web applications. He recently
-              completed a Solidity bootcamp allowing him to deploy smart
-              contracts on EVM-compatible blockchains and to incorporate web3
-              tooling in his development toolbox.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
@@ -63,6 +56,13 @@ const Web = () => {
               acute sense for elegant and clear interface design, Pierre
               Guerineau is commited to offer clients organic and inviting
               spaces.
+            </div>
+            <div className="bio-paragraph less-padding">
+              Using React, Javascript and CSS, he quickly started incorporating
+              the 3D Library Three.js in his web applications. He recently
+              completed a Solidity bootcamp allowing him to deploy smart
+              contracts on EVM-compatible blockchains and to incorporate web3
+              tooling in his development toolbox.
             </div>
           </div>
         </div>
