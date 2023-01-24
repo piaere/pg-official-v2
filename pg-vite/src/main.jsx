@@ -13,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Header />
       <div className="page">
+
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/music" element={<Music />} />

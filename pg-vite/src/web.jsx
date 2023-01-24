@@ -31,7 +31,7 @@ const Web = () => {
   return (
     <>
       <div className="section-top">
-        <div className="section-top-img border-right">
+        <div className="section-top-img border-right ">
           <img
             src={art}
             className="fsa web-crop"
@@ -40,9 +40,9 @@ const Web = () => {
         </div>
         <div className="section-top-txt margin-left">
           <div className="logo-container logo-web">
-            <div className="logo logo-web">🌐 web </div>
+            <div className="logo logo-web mobile-landscape">🌐 web </div>
           </div>
-          <div>
+          <div className="bio">
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
               desire to create tools that empower people and communities, in

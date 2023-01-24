@@ -8,14 +8,16 @@ import FSA2 from "./images/FSA-by-Maria-Jose-Govea-3.jpeg";
 const Music = () => {
   const data = dataJSON.music;
 
+
   return (
     <>
-      <div className="section-top">
+    
+      <div className="section-top mobile-landscape">
         <div className="section-top-txt">
           <div className="logo-container">
             <div className="logo"> ♪ music </div>
           </div>
-          <div>
+          <div className="bio">
             {/* <div className="section"> </div>   */}
             <div className="bio-paragraph ">
               Composer, record producer and mixing engineer based in Montreal
@@ -48,8 +50,8 @@ const Music = () => {
               Named after historical cases of mass hallucinations in French
               villages, <i>Feu St-Antoine's</i> music blurs the lines between
               genres, using uncanny realism to create a startling realm of
-              sound. Colourful, poetic and gently unsettling, Guerineau's
-              work here displays — a stunningly varied and layered masterclass in
+              sound. Colourful, poetic and gently unsettling, Guerineau's work
+              here displays — a stunningly varied and layered masterclass in
               wordless storytelling <i>(Boomkat).</i>
             </div>
             {/* <div></div> */}
@@ -62,7 +64,7 @@ const Music = () => {
           </div>
         </div>
 
-        <div className="section-top-img border-left">
+        <div className="section-top-img border-left mobile-landscape">
           <img
             src={FSA2}
             className="fsa"

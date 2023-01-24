@@ -205,6 +205,17 @@ video {
   /* border-bottom: 1px black solid; */
 }
 
+/*  */
+/* @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+
+.logo-container{
+  margin: 50px 0;
+}
+
+
+  } */
+
+
 
 @media(max-width: 1050px) {
 
@@ -223,9 +234,6 @@ video {
   .bio-paragraph.less-padding {
     padding: 0px 0px 15px 20px;
   }
-
-
-
 }
 
 @media(max-width: 800px) {
@@ -271,6 +279,11 @@ video {
   }
 
   .section-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-bottom {
     display: flex;
     flex-direction: column;
   }
@@ -408,5 +421,24 @@ video {
 
   .logo {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+
+  .mobile-landscape {
+    margin-top: 100px;
+  }
+
+  .section-top {
+    border: none;
+  }
+
+  .web {
+    margin-top: 100px;
+  }
+
+  .logo-container {
+    margin-bottom: 30px;
   }
 }
