@@ -4,6 +4,8 @@ import mergeVideo from "./images/the-merge-demo.webm";
 import thumbnailTheMerge from "./images/the-merge-logo-loop-thumbnail.jpg";
 import thumbnailAegis from "./images/aegis2.jpg";
 import art from "./images/14.jpg";
+import GitHub from "./images/GitHub.svg";
+import YouTube from "./images/YouTube.svg";
 import "./css/web.css";
 const Web = () => {
   const video1 = useRef(null);
@@ -66,11 +68,11 @@ const Web = () => {
         </div>
       </div>
       <div className="web">
-        <div className="web-section">Few projects</div>
-
-        <div className="section-bottom">
-          <div className="section-bottom-txt">
-            <div className="web-project-title">aegis</div>
+        <div className="section-project1">
+          <div className="section-project-txt1">
+            <div className="web-paragraph">
+              <div className="web-project-title">aegis</div>
+            </div>
             <div className="web-paragraph">
               aegis is a non-custodial open plateform for writers and readers to
               interact directly. Users can support their favourite creators with
@@ -89,14 +91,23 @@ const Web = () => {
               public addresses as well as public informations provided by the
               Ethereum Name Service API if the user has its account registered.
             </div>
-            <div className="web-paragraph">
+
+            <div className="link-logos">
               <a
                 className="tilt-link"
                 href="https://github.com/piaere/final-project-aegis"
                 target="_blank"
                 rel="noreferrer"
               >
-                Github
+                <img src={GitHub}></img>
+              </a>
+              <a
+                className="tilt-link"
+                href="https://youtu.be/twCqmOA_QwQ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={YouTube}></img>
               </a>
             </div>
           </div>
@@ -113,25 +124,9 @@ const Web = () => {
             />
           </div>
         </div>
-        <div className="section-bottom">
-          <div className="section-bottom-txt">
-            <div className="web-project-title">The Merge</div>
-            <div className="web-paragraph">
-              Built for the Ethereum Foundation in few days.
-            </div>
-            <div className="web-paragraph">Using Vite and Three.js</div>
-            <div className="web-paragraph">
-              {" "}
-              <a
-                className="tilt-link"
-                href="https://github.com/piaere/three-demo"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-            </div>
-          </div>
+        <div className="margin">c</div>
+
+        <div className="section-project2">
           <div className="video-container">
             <video
               playsInline
@@ -143,6 +138,38 @@ const Web = () => {
               poster={thumbnailTheMerge}
               ref={video1}
             />
+          </div>
+
+          <div className="section-project-txt2">
+            <div className="web-project-title">
+              The
+              <br /> Merge
+            </div>
+            <div className="web-paragraph">
+              Built for the Ethereum Foundation in few days.
+            </div>
+            <div className="web-paragraph">Using Vite and Three.js</div>
+            <div className="web-paragraph">
+              {" "}
+              <div className="link-logos">
+                <a
+                  className="tilt-link"
+                  href="https://github.com/piaere/three-demo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={GitHub}></img>
+                </a>
+                <a
+                  className="tilt-link"
+                  href="https://youtu.be/LSWWb8DCdkU"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={YouTube}></img>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
