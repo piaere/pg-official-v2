@@ -121,14 +121,15 @@ video {
   letter-spacing: 5px;
   color: transparent;
   text-shadow: 0 0 0.15vw #8686ff;
-  transition: all 3s ease-out;
+  transition: all 3s ease-in-out;
 }
 
 .logo:hover {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgb(228, 228, 228);
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   padding-left: 8px;
+
 }
 
 .section-top {
