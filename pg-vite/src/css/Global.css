@@ -66,6 +66,15 @@ nav {
   position: -webkit-sticky;
 }
 
+
+
+video {
+  border-radius: 5px;
+  border: 1px solid #4444dd;
+  filter: drop-shadow(5px 5px 4px #4444dd);
+  z-index: -1;
+}
+
 @font-face {
   font-family: "PPNeueMontreal";
   src: url(../fonts/PPNeueMontreal-Book.woff) format("woff"),
@@ -361,6 +370,21 @@ nav {
 
   .fsa.web-crop {
     height: 25vh;
+  }
+
+  .web-project-title {
+    font-size: 3em;
+    letter-spacing: 16px;
+
+  }
+
+  .col3 {
+    margin: 17% 0;
+  }
+
+
+  .margin {
+    margin: 5vh;
   }
 }
 

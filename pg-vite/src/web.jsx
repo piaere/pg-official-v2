@@ -171,6 +171,8 @@ const Web = () => {
             ref={video1}
           />
         </div>
+        <div className="margin"></div>
+
       </div>
     </>
   );
