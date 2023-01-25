@@ -67,12 +67,14 @@ const Web = () => {
           </div>
         </div>
       </div>
+      <div className="section border-bottom">Recent projects</div>
       <div className="web">
-        <div className="section-project1">
-          <div className="section-project-txt1">
-            <div className="web-paragraph">
-              <div className="web-project-title">aegis</div>
-            </div>
+        <div className="section-project">
+          <div className="col1">
+            <div className="web-project-title">aegis</div>
+          </div>
+          <div className="col2"></div>
+          <div className="col3">
             <div className="web-paragraph">
               aegis is a non-custodial open plateform for writers and readers to
               interact directly. Users can support their favourite creators with
@@ -81,7 +83,7 @@ const Web = () => {
             </div>
             <div className="web-paragraph">
               The front-end has been built using React, the backend with Node.js
-              and I’m using Mongodb for the database.
+              and the database with MongoDB.
             </div>
             <div className="web-paragraph">
               Thanks to the characteristics of blockchain technology, high
@@ -111,66 +113,63 @@ const Web = () => {
               </a>
             </div>
           </div>
-          <div className="video-container">
-            <video
-              playsInline
-              autoplay
-              loop
-              muted
-              alt="All the devices"
-              src={aegisVideo}
-              poster={thumbnailAegis}
-              ref={video2}
-            />
+        </div>
+        <div className="video-container">
+          <video
+            playsInline
+            autoplay
+            loop
+            muted
+            alt="All the devices"
+            src={aegisVideo}
+            poster={thumbnailAegis}
+            ref={video2}
+          />
+        </div>
+        <div className="margin"></div>
+
+        <div className="section-project">
+          <div className="web-project-title">The Merge</div>
+          <div></div>
+          <div className="col3">
+            <div className="web-paragraph">
+              Educational 3D animated single page application.
+            </div>
+            <div className="web-paragraph">
+              Built for the Ethereum Foundation in few days, using Vite and
+              Three.js and Blender.
+            </div>
+            <div className="link-logos">
+              <a
+                className="tilt-link"
+                href="https://github.com/piaere/three-demo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={GitHub}></img>
+              </a>
+              <a
+                className="tilt-link"
+                href="https://youtu.be/LSWWb8DCdkU"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={YouTube}></img>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="margin">c</div>
-
-        <div className="section-project2">
-          <div className="video-container">
-            <video
-              playsInline
-              autoplay
-              loop
-              muted
-              alt="All the devices"
-              src={mergeVideo}
-              poster={thumbnailTheMerge}
-              ref={video1}
-            />
-          </div>
-
-          <div className="section-project-txt2">
-            <div className="web-project-title">
-              The
-              <br /> Merge
-            </div>
-            <div className="web-paragraph">
-              Built for the Ethereum Foundation in few days.
-            </div>
-            <div className="web-paragraph">Using Vite and Three.js</div>
-            <div className="web-paragraph">
-              {" "}
-              <div className="link-logos">
-                <a
-                  className="tilt-link"
-                  href="https://github.com/piaere/three-demo"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={GitHub}></img>
-                </a>
-                <a
-                  className="tilt-link"
-                  href="https://youtu.be/LSWWb8DCdkU"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={YouTube}></img>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="video-container">
+          <video
+            playsInline
+            autoplay
+            loop
+            muted
+            alt="All the devices"
+            src={mergeVideo}
+            poster={thumbnailTheMerge}
+            ref={video1}
+          />
         </div>
       </div>
     </>

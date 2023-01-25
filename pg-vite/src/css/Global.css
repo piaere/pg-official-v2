@@ -66,12 +66,6 @@ nav {
   position: -webkit-sticky;
 }
 
-
-
-
-
-
-
 @font-face {
   font-family: "PPNeueMontreal";
   src: url(../fonts/PPNeueMontreal-Book.woff) format("woff"),
@@ -98,12 +92,6 @@ nav {
   border-bottom: 1px black solid;
   border-top: 1px black solid;
 }
-
-.web {
-  margin: 20vh 0 50px;
-  /* border-top: 1px solid black; */
-}
-
 
 
 .web-section {
@@ -191,6 +179,19 @@ nav {
   .bio-paragraph.less-padding {
     padding: 0px 0px 15px 20px;
   }
+
+  .section-project {
+    grid-template-columns: 1fr 0fr 1fr;
+  }
+
+
+  .web-project-title {
+
+
+    font-size: 4em;
+    letter-spacing: 27px;
+
+  }
 }
 
 @media(max-width: 800px) {
@@ -240,14 +241,11 @@ nav {
     flex-direction: column;
   }
 
-  .section-project1{
+  .section-project {
     display: flex;
     flex-direction: column;
   }
-  .section-project2{
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .section-top-txt {
     margin: 40px 0;
@@ -292,11 +290,6 @@ nav {
     padding: 0px 80px 15px 80px;
   }
 
-  .bio-paragraph.less-padding-music {
-    /* padding: 0px 80px 15px 80px; */
-
-  }
-
 
   .bio-paragraph:last-of-type {
     padding-bottom: 0;
@@ -306,7 +299,6 @@ nav {
     height: 25vh;
     object-position: 100% 100%;
   }
-
 }
 
 @media(max-width:550px) {

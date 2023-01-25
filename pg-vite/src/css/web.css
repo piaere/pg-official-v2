@@ -1,5 +1,18 @@
+.web {
+    margin: 20vh 0 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 6vw;
+}
+
 .web-paragraph {
     padding: 0px 0 15px 0px;
+    font-size: 20px;
+    line-height: normal;
 }
 
 .video-container {
@@ -14,75 +27,64 @@ video {
     z-index: -1;
 }
 
-
+.border-bottom {
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-family: ABCLaicaBItalicVariable;
+    font-style: italic;
+    font-size: 1.1em;
+    border-bottom: 1px solid black;
+}
 
 .web-project-title {
     display: flex;
-    justify-content: center;
     font-family: PPNeueMontreal, Century Gothic, sans-serif;
-    /* color: #0000ff; */
-    height: 60px;
-    font-size: 3em;
-
+    font-size: 6.5em;
     font-weight: 900;
-    ;
-    letter-spacing: 17px;
+    letter-spacing: 37px;
     color: transparent;
     text-shadow: 0 0 1.6px black;
+    line-height: 0.8em;
 
 }
 
-.section-project1 {
-    /* border-bottom: 1px solid black;
-    border-right: 1px solid black; */
-    margin-bottom: 40px;
+.section-project {
+    margin-top: 20px;
     line-height: 17px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 4fr;
+    gap: 0px 3%;
     text-align: justify;
 }
 
-.section-project2 {
-    /* border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black; */
-    line-height: 17px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    text-align: justify;
+
+.col3 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    /* align-items: center; */
+    margin: 22% 0;
 }
+
 
 .margin {
-    margin: 20vh 0;
+    /* width: 100%; */
+    margin: 10vh 0;
+    /* border-top: 1px solid black; */
+
 }
 
-.section-project-txt1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 30px 30px 20px 0;
-    /* border-right: 1px solid black; */
-}
-
-.section-project-txt2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px 0 50px 50px;
-    /* border-left: 1px solid black; */
-}
 
 .link-logos {
     display: flex;
+    margin: 5% 20% 0;
     /* flex-direction: column; */
     /* width: 40%; */
     /* margin-top: 30px; */
     /* margin-left: 25%; */
-
+    scale: 1.5;
     align-items: center;
     justify-content: space-evenly;
-
-
 
 }
 
