@@ -120,13 +120,14 @@ video {
   font-style: italic;
   letter-spacing: 5px;
   color: transparent;
-  text-shadow: 0 0 0.15vw #8686ff;
-  transition: all 3s ease-in-out;
+  text-shadow: 0 0 0.4vh #c4c4f6;
+  transition: all 2s ease-out;
+  font-weight: 900;
 }
 
 .logo:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 5px rgb(228, 228, 228);
+  text-shadow: 0 0 5px rgb(249, 235, 241);
   letter-spacing: 10px;
   padding-left: 8px;
 
@@ -352,12 +353,12 @@ video {
     padding: 0 0 40px;
     font-size: 7.5vw;
     letter-spacing: 2px;
-    text-shadow: 0 0 2px rgb(219, 78, 219);
+    /* text-shadow: 0 0 2px rgb(219, 78, 219); */
   }
 
 
   .logo:hover {
-    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    /* text-shadow: 0 0 3px rgba(0, 0, 0, 1); */
     letter-spacing: 4px;
   }
 
