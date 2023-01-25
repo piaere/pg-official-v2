@@ -120,13 +120,13 @@ video {
   font-style: italic;
   letter-spacing: 5px;
   color: transparent;
-  text-shadow: 0 0 1.6px rgb(219, 78, 219);
+  text-shadow: 0 0 0.15vw #8686ff;
   transition: all 3s ease-out;
 }
 
 .logo:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 5px rgb(228, 228, 228);
   letter-spacing: 8px;
   padding-left: 8px;
 }
@@ -374,7 +374,7 @@ video {
 
   .web-project-title {
     font-size: 3em;
-    letter-spacing: 16px;
+    letter-spacing: 3.5vw;
 
   }
 
