@@ -16,15 +16,15 @@ const Music = () => {
           <div className="bio">
             {/* <div className="section"> </div>   */}
             <div className="bio-paragraph ">
-              Composer, record producer and mixing engineer based in Montreal
-              with 10 years of experience. Pierre Guerineau has collaborated
-              with countless clients on records, films and remixes.
+              Across his 10-year career as a composer, record producer and
+              mixing engineer, Pierre Guerineau has contributed to a broad
+              catalog of records, films, remixes and performances.
             </div>
             <div className="bio-paragraph ">
-              Trained in sound engineering in France, Guerineau is at ease on
-              both sides of the studio glass, finding creative and innovative
-              solutions to express the artist's full potential, at every step of
-              a project.
+              Trained in sound engineering in France and based in Montreal (Qc,
+              Canada), Guerineau is at ease on both sides of the studio glass,
+              finding creative and innovative solutions to express the artist's
+              full potential, at every step of a project.
             </div>
             <div className="bio-paragraph ">
               His work has been acclaimed in medias such as{" "}
@@ -35,7 +35,7 @@ const Music = () => {
               <i> Berghain.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside his long-time collaboration with <i>Marie Davidson :</i>{" "}
+              Aside his long-time collaboration with <i>Marie Davidson,</i>{" "}
               <i>Essaie pas,</i> in 2020, he co-founded the{" "}
               <i>Éditions Appærent</i> imprint with{" "}
               <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
@@ -44,13 +44,12 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               Named after historical cases of mass hallucinations in French
-              villages, <i>Feu St-Antoine's</i> music blurs the lines between
-              genres, using uncanny realism to create a startling realm of
-              sound. Colourful, poetic and gently unsettling, Guerineau's work
-              here displays — a stunningly varied and layered masterclass in
-              wordless storytelling <i>(Boomkat).</i>
+              villages, <i>Feu St-Antoine's</i> music escapes conventional
+              classification, using uncanny realism to create a startling realm
+              of sound. Colourful, poetic and gently unsettling, Guerineau's
+              work here displays — a stunningly varied and layered masterclass
+              in wordless storytelling <i>(Boomkat).</i>
             </div>
-            {/* <div></div> */}
             <div className="bio-paragraph ">
               {" "}
               His services are, but are not limited to, production and

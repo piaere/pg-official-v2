@@ -46,8 +46,8 @@ const Web = () => {
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
               desire to create empowering tools for individuals and communities,
-              in 2022 Pierre Guerineau graduates from Concordia University in
-              Full-Stack Web Development.
+              in 2022 Pierre Guerineau graduates from{" "}
+              <i>Concordia University</i> in Full-Stack Web Development.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
@@ -58,11 +58,12 @@ const Web = () => {
               spaces.
             </div>
             <div className="bio-paragraph less-padding">
-              Using React, Javascript and CSS, he quickly started incorporating
-              the 3D Library Three.js in his web applications. He recently
-              completed a Solidity bootcamp allowing him to deploy smart
-              contracts on EVM-compatible blockchains and to incorporate web3
-              tooling in his development toolbox.
+              Using <i>React, Javascript and CSS,</i> he quickly started
+              incorporating the 3D Library <i>Three.js</i> in his web
+              applications. Completing his education with{" "}
+              <i>ETH Denver x Encode's Solidity</i> program allowed him to write
+              and deploy smart contracts on EVM-compatible blockchains, and
+              incorporate web3 tooling in his development toolbox.
             </div>
           </div>
         </div>
@@ -117,7 +118,7 @@ const Web = () => {
         <div className="video-container">
           <video
             playsInline
-            autoplay
+            autoPlay
             loop
             muted
             alt="All the devices"
@@ -162,7 +163,7 @@ const Web = () => {
         <div className="video-container">
           <video
             playsInline
-            autoplay
+            autoPlay
             loop
             muted
             alt="All the devices"
@@ -172,7 +173,7 @@ const Web = () => {
           />
         </div>
         <div className="margin"></div>
-
+        <div>More soon ^^</div>
       </div>
     </>
   );

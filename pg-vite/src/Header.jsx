@@ -3,15 +3,14 @@ import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
 
 const Header = () => {
-  
   // BACK TO TOP OF PAGE ON CLICK WHEN NAVIGATING
   const { pathname } = useLocation();
-
-  console.log(pathname)
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  let isActive = false;
 
   return (
     <nav>

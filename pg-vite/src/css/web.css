@@ -1,5 +1,4 @@
 .web {
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -26,7 +25,7 @@
 
 
 .border-bottom {
-    padding: 10px;
+    padding: 10px 20px;
     /* margin: 0 6.5vw; */
 
     letter-spacing: 1px;
@@ -55,7 +54,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr 4fr;
     gap: 0px 3%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 
