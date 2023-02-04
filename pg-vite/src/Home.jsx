@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       {" "}
-      <div className="container">
+      <div className="container fade-in">
         <div className="left-home left-home-top">
           <div className="PG">
             {" "}

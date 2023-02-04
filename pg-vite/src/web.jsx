@@ -32,7 +32,7 @@ const Web = () => {
 
   return (
     <>
-      <div className="section-top">
+      <div className="section-top fade-in">
         <div className="section-top-img border-right ">
           <img
             src={art}
@@ -129,6 +129,7 @@ const Web = () => {
             ref={video2}
           />
         </div>
+
         <div className="margin"></div>
 
         <div className="section-project">

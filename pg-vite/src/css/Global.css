@@ -172,6 +172,18 @@ video {
 }
 
 
+.fade-in {
+  animation: fadeIn 1s ease-out;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+
 @media(max-width: 1050px) {
 
   .logo {
@@ -388,13 +400,9 @@ video {
     margin: 5vh;
   }
 
-  /* .section-project{
-    position: relative;
-  }
-
-  .video-container{
-    position: absolute;
-  } */
+  /* .project-top{
+  display: none;
+} */
 }
 
 @media(max-width:290px) {

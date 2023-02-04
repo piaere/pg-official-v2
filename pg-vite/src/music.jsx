@@ -8,7 +8,7 @@ const Music = () => {
 
   return (
     <>
-      <div className="section-top mobile-landscape">
+      <div className="section-top mobile-landscape fade-in">
         <div className="section-top-txt">
           <div className="logo-container">
             <div className="logo"> ♪ music </div>
