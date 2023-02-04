@@ -14,7 +14,10 @@ const Header = () => {
 
   const activePath = (url) => {
     if (url === pathname) {
-      return { color: "rgb(154, 154, 180)", "font-weight": "900" };
+      return {
+
+        "text-shadow": "0 0 0.15vh rgb(132, 132, 132)",
+      };
     }
   };
 
@@ -22,7 +25,7 @@ const Header = () => {
     <nav>
       <div className="container-header">
         <div className="left">
-          <NavLink to="/" className="home-btn" style={activePath("/")}>
+          <NavLink to="/" className="home-btn">
             ✦
           </NavLink>
           <NavLink

@@ -25,11 +25,10 @@
   transform: scale(0.7, 1.4);
 }
 
-.test{
-  color:yellow
-}
+
 
 .link-btn {
+  /* color: rgb(98, 98, 98); */
   -webkit-transition-duration: 0.1s;
   -moz-transition-duration: 0.1s;
   -o-transition-duration: 0.1s;
