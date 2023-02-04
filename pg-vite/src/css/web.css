@@ -69,10 +69,6 @@
 .link-logos {
     display: flex;
     margin: 5% 20% 0;
-    /* flex-direction: column; */
-    /* width: 40%; */
-    /* margin-top: 30px; */
-    /* margin-left: 25%; */
     scale: 1.5;
     align-items: center;
     justify-content: space-evenly;

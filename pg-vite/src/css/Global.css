@@ -128,7 +128,7 @@ video {
 .logo:hover {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgb(249, 235, 241);
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   padding-left: 8px;
 
 }
