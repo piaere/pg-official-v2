@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import aegisVideo from "./images/aegis-loop.webm";
+import aegisVideoMp4 from "./images/aegis-loop.mp4";
 import mergeVideo from "./images/the-merge-demo.webm";
+import mergeVideomp4 from "./images/the-merge-demo.mp4";
 import thumbnailTheMerge from "./images/the-merge-logo-loop-thumbnail.jpg";
 import thumbnailAegis from "./images/aegis2.jpg";
 import art from "./images/14.jpg";
@@ -122,7 +124,7 @@ const Web = () => {
             loop
             muted
             alt="All the devices"
-            src={aegisVideo}
+            src={aegisVideoMp4 || aegisVideo}
             poster={thumbnailAegis}
             ref={video2}
           />
@@ -167,7 +169,7 @@ const Web = () => {
             loop
             muted
             alt="All the devices"
-            src={mergeVideo}
+            src={mergeVideomp4 || mergeVideo}
             poster={thumbnailTheMerge}
             ref={video1}
           />
