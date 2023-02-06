@@ -73,7 +73,9 @@ const Web = () => {
       <div className="section border-bottom">Recent projects</div>
       <div className="web">
         <div className="container-project">
-          <div className="title">aegis  <span className="blink">▌</span></div>
+          <div className="title">
+            aegis <span className="blink">▌</span>
+          </div>
           <div className="container-content">
             <div className="container-txt">
               <div className="empty-space">.</div>
@@ -95,7 +97,7 @@ const Web = () => {
                   thruout the website. No sensitive personal data, email,
                   password needs to be stored, to the exception of the articles
                   themselves, the users public addresses as well as public
-                  informations provided by the Ethereum Name Service API if the
+                  informations provided by the Ethereum Name Service API, if the
                   user has its account registered.
                 </div>
                 <div className="link-logos">
