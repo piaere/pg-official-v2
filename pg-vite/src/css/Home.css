@@ -17,7 +17,6 @@
 }
 
 
-
 .left-home-bottom {
   font-size: 1.3em;
   display: flex;
@@ -81,4 +80,10 @@
 
 .music-web:hover {
   text-shadow: 0 0 1.6px rgb(219, 78, 219);
+}
+
+@media(max-height:550px) {
+  .container {
+    min-height: 100vh;
+  }
 }

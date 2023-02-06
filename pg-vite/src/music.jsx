@@ -14,7 +14,6 @@ const Music = () => {
             <div className="logo"> ♪ music </div>
           </div>
           <div className="bio">
-            {/* <div className="section"> </div>   */}
             <div className="bio-paragraph ">
               Across his 10-year career as a composer, record producer and
               mixing engineer, Pierre Guerineau has contributed to a broad
@@ -68,7 +67,7 @@ const Music = () => {
         </div>
       </div>
       <div className="music">
-        {data.map((e) => {
+        {data.map((e, i) => {
           const section = Object.keys(e);
           const content = e[section];
           let title;
@@ -93,19 +92,24 @@ const Music = () => {
 
           return (
             <>
-              <div className="section">{title}</div>
-              <div>
-                {content.map((item) => {
+              <div className="section" key={i.toString() + title}>
+                {title}
+              </div>
+              <div key={i.toString() + content}>
+                {content.map((item, i) => {
                   const category = Object.keys(item);
 
                   return (
                     <>
-                      <div className="element">
-                        {category.map((e) => {
+                      <div className="element" key={i.toString() + category}>
+                        {category.map((e, i) => {
                           const element = item[e];
+
                           return (
                             <>
-                              <span>{element}</span>
+                              <span key={i.toString() + element}>
+                                {element}
+                              </span>
                             </>
                           );
                         })}

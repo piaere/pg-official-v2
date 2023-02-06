@@ -6,8 +6,6 @@ const Header = () => {
   // BACK TO TOP OF PAGE ON CLICK WHEN NAVIGATING
   const { pathname } = useLocation();
 
-  console.log(pathname);
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -15,8 +13,7 @@ const Header = () => {
   const activePath = (url) => {
     if (url === pathname) {
       return {
-
-        "text-shadow": "0 0 0.15vh rgb(132, 132, 132)",
+        "textShadow": "0 0 0.2vh rgb(132, 132, 132)",
       };
     }
   };
