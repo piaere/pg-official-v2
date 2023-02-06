@@ -47,13 +47,11 @@ const Home = () => {
           </div>
           <div className="social-contact">
             <div className="social-contact-title">Contact</div>
-            <a href="mailto:polemoflora@gmail.com?subject=Let's work together!">
+            <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
               E-mail
             </a>
           </div>
         </div></div>
-        {/* <div className="dummy"></div>
-        <div className="dummy"></div> */}
       </div>
     </>
   );
