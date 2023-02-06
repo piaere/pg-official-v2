@@ -269,7 +269,7 @@ video {
   .section-top-txt {
     margin: 40px 0;
     justify-content: space-evenly;
-    height: 52vh;
+    min-height: 52vh;
 
   }
 

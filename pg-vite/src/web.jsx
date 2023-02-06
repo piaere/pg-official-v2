@@ -172,116 +172,13 @@ const Web = () => {
                 loop
                 muted
                 alt="All the devices"
-                src={aegisVideoMp4 || aegisVideo}
+                src={mergeVideomp4 || mergeVideo}
                 poster={thumbnailAegis}
                 ref={video2}
               />
             </div>
           </div>
         </div>
-        {/* <div className="section-project">
-          <div className="col1">
-            <div className="web-project-title">aegis</div>
-          </div>
-          <div className="col2"></div>
-          <div className="col3">
-            <div className="web-paragraph">
-              aegis is a non-custodial open plateform for writers and readers to
-              interact directly. Users can support their favourite creators with
-              a p2p tipping function. Log in and paiements are done using
-              MetaMask and the Ethereum blockchain.
-            </div>
-            <div className="web-paragraph">
-              The front-end has been built using React, the backend with Node.js
-              and the database with MongoDB.
-            </div>
-            <div className="web-paragraph">
-              Thanks to the characteristics of blockchain technology, high
-              security is maintain for authentification and paiements thruout
-              the website. No sensitive personal data, email, password needs to
-              be stored, to the exception of the articles themselves, the users
-              public addresses as well as public informations provided by the
-              Ethereum Name Service API if the user has its account registered.
-            </div>
-
-            <div className="link-logos">
-              <a
-                className="tilt-link"
-                href="https://github.com/piaere/final-project-aegis"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={GitHub}></img>
-              </a>
-              <a
-                className="tilt-link"
-                href="https://youtu.be/twCqmOA_QwQ"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={YouTube}></img>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="video-container">
-          <video
-            playsInline
-            autoPlay
-            loop
-            muted
-            alt="All the devices"
-            src={aegisVideoMp4 || aegisVideo}
-            poster={thumbnailAegis}
-            ref={video2}
-          />
-        </div>
-
-        <div className="margin"></div>
-
-        <div className="section-project">
-          <div className="web-project-title">The Merge</div>
-          <div></div>
-          <div className="col3">
-            <div className="web-paragraph">
-              Educational 3D animated single page application.
-            </div>
-            <div className="web-paragraph">
-              Built for the Ethereum Foundation in few days, using Vite and
-              Three.js and Blender.
-            </div>
-            <div className="link-logos">
-              <a
-                className="tilt-link"
-                href="https://github.com/piaere/three-demo"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={GitHub}></img>
-              </a>
-              <a
-                className="tilt-link"
-                href="https://youtu.be/LSWWb8DCdkU"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={YouTube}></img>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="video-container">
-          <video
-            playsInline
-            autoPlay
-            loop
-            muted
-            alt="All the devices"
-            src={mergeVideomp4 || mergeVideo}
-            poster={thumbnailTheMerge}
-            ref={video1}
-          />
-        </div> */}
         <div className="margin"></div>
         <div>More soon ^^</div>
       </div>
