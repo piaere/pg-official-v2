@@ -26,32 +26,42 @@ const Home = () => {
         </div>
         <div className="left-home left-home-bottom">
           <div className="social-contact-box">
-          <div className="social-contact">
-            <div className="social-contact-title">Social</div>
-            <a
-              className="tilt-link"
-              href="https://www.linkedin.com/in/piaere/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <br />
-            <a
-              href="https://www.instagram.com/feu.st.antoine/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Instagram
-            </a>
+            <div className="social-contact">
+              <div className="social-contact-title">Social</div>
+              <a
+                className="tilt-link"
+                href="https://www.linkedin.com/in/piaere/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <br />
+              <a
+                className="tilt-link"
+                href="https://github.com/piaere"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <br />
+              <a
+                href="https://www.instagram.com/feu.st.antoine/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </div>
+            <div className="social-contact">
+              <div className="social-contact-title">Contact</div>
+              <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
+                E-mail
+              </a>
+            </div>
           </div>
-          <div className="social-contact">
-            <div className="social-contact-title">Contact</div>
-            <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
-              E-mail
-            </a>
-          </div>
-        </div></div>
+        </div>
       </div>
     </>
   );
