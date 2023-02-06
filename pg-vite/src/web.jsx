@@ -48,15 +48,15 @@ const Web = () => {
             <div className="bio-paragraph less-padding">
               Driven by a life-long fascination for web technologies and a
               desire to create empowering tools for individuals and communities,
-              in 2022 Pierre Guerineau graduates from{" "}
+              in 2022 Pierre Guerineau graduated from{" "}
               <i>Concordia University</i> in Full-Stack Web Development.
             </div>
             <div className="bio-paragraph less-padding">
               As human beings spend an increasing amount of their waking hours
-              navigating and interacting online, it seem essential to offer
+              navigating and interacting online, it seems essential to offer
               users the intuitive and smooth experience we all deserve. With an
               acute sense for elegant and clear interface design, Pierre
-              Guerineau is commited to offer clients organic and inviting
+              Guerineau is committed to offer clients organic and inviting
               spaces.
             </div>
             <div className="bio-paragraph less-padding">
@@ -70,7 +70,7 @@ const Web = () => {
           </div>
         </div>
       </div>
-      <div className="section border-bottom">Recent projects</div>
+      <div className="section border-bottom">Recent Projects</div>
       <div className="web">
         <div className="container-project">
           <div className="title">
@@ -82,23 +82,26 @@ const Web = () => {
               <div className="project-txt">
                 {" "}
                 <div className="web-paragraph">
-                  aegis is a non-custodial open plateform for writers and
-                  readers to interact directly. Users can support their
-                  favourite creators with a p2p tipping function. Log in and
-                  paiements are done using MetaMask and the Ethereum blockchain.
+                  aegis is a non-custodial open platform for writers and readers
+                  to interact directly. Users can support their favorite
+                  creators with a p2p tipping function. Log in and payments are
+                  handled using a browser crypto wallet (such as <i>Metamask</i>
+                  ) and the <i>Ethereum</i> blockchain.
                 </div>
                 <div className="web-paragraph">
-                  The front-end has been built using React, the backend with
-                  Node.js and the database with MongoDB.
+                  The front-end has been built using <i>React</i>, the back-end
+                  with {""}
+                  <i>Node.js </i> and the database with <i>MongoDB.</i>
                 </div>
                 <div className="web-paragraph">
                   Thanks to the characteristics of blockchain technology, high
-                  security is maintain for authentification and paiements
-                  thruout the website. No sensitive personal data, email,
-                  password needs to be stored, to the exception of the articles
-                  themselves, the users public addresses as well as public
-                  informations provided by the Ethereum Name Service API, if the
-                  user has its account registered.
+                  security is maintained for authentication and payments
+                  throughout the website. No sensitive personal data, email or
+                  passwords need to be stored, with the exception of the
+                  articles themselves, the user's public addresses, and the
+                  public information provided by the{" "}
+                  <i>Ethereum Name Service</i> API (if the user has an account
+                  registered).
                 </div>
                 <div className="link-logos">
                   <a
@@ -144,8 +147,9 @@ const Web = () => {
                   Educational 3D animated single page application.
                 </div>
                 <div className="web-paragraph">
-                  Built for the Ethereum Foundation in few days, using Vite,
-                  Three.js and Blender.
+                  Built for the <i>Ethereum Foundation</i> in just a few days
+                  using
+                  <i>Vite, Three.js</i> and <i> Blender.</i>
                 </div>
                 <div className="link-logos">
                   <a

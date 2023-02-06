@@ -20,22 +20,22 @@ const Music = () => {
               catalog of records, films, remixes and performances.
             </div>
             <div className="bio-paragraph ">
-              Trained in sound engineering in France and based in Montreal (Qc,
-              Canada), Guerineau is at ease on both sides of the studio glass,
-              finding creative and innovative solutions to express the artist's
-              full potential, at every step of a project.
+              Trained in sound engineering in France and currently based in
+              Montreal (Canada), Guerineau is at ease on both sides of the
+              studio glass, finding creative and innovative solutions to express
+              the artist's full potential at every step of a project.
             </div>
             <div className="bio-paragraph ">
-              His work has been acclaimed in medias such as{" "}
+              His work has been featured in publications such as{" "}
               <i>NME, Pitchfork, The Guardian </i>
-              and <i>The New York Times;</i> and his live performances presented
-              by international institutions such as{" "}
-              <i>Primavera Festival, Mutek</i> or
+              and <i>The New York Times,</i> and his live performances have been
+              presented by international institutions such as{" "}
+              <i>Primavera Festival, Mutek</i> and
               <i> Berghain.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside his long-time collaboration with <i>Marie Davidson,</i>{" "}
-              <i>Essaie pas,</i> in 2020, he co-founded the{" "}
+              Aside from his long-time collaborative music project <i>Essaie pas</i>{" "}
+              (with <i>Marie Davidson</i>), in 2020, he co-founded the{" "}
               <i>Éditions Appærent</i> imprint with{" "}
               <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
               publishing his first solo record under the name{" "}
@@ -45,14 +45,14 @@ const Music = () => {
               Named after historical cases of mass hallucinations in French
               villages, <i>Feu St-Antoine's</i> music escapes conventional
               classification, using uncanny realism to create a startling realm
-              of sound. Colourful, poetic and gently unsettling, Guerineau's
-              work here displays — a stunningly varied and layered masterclass
-              in wordless storytelling <i>(Boomkat).</i>
+              of sound. Colorful, poetic and gently unsettling, Guerineau's
+              work displays 'a stunningly varied and layered masterclass
+              in wordless storytelling' <i>(Boomkat).</i>
             </div>
             <div className="bio-paragraph ">
               {" "}
               His services are, but are not limited to, production and
-              arrangments, original music composition for film and media, mixing
+              arrangements, original music composition for film and media, mixing
               and mastering services, and remixes.
             </div>
           </div>
@@ -122,7 +122,7 @@ const Music = () => {
           );
         })}
         <div className="gif-center">
-          <img src={gif} className="gif"></img>
+          <img src={gif} className="gif" loading="lazy"></img>
         </div>
       </div>
     </>
