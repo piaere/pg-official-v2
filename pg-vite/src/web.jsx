@@ -5,23 +5,23 @@ import mergeVideo from "./images/the-merge-demo.webm";
 import mergeVideomp4 from "./images/the-merge-demo.mp4";
 import thumbnailTheMerge from "./images/the-merge-logo-loop-thumbnail.jpg";
 import thumbnailAegis from "./images/aegis2.jpg";
-import art from "./images/14.jpg";
+import art from "./images/14-1.jpg";
 import GitHub from "./images/GitHub.svg";
 import YouTube from "./images/YouTube.svg";
 import "./css/web.css";
 const Web = () => {
-  const video1 = useRef(null);
-  const video2 = useRef(null);
+  const videoAegis = useRef(null);
+  const videoMerge = useRef(null);
 
   const attemptPlay = () => {
-    video1 &&
-      video1.current &&
-      video1.current.play().catch((error) => {
+    videoAegis &&
+      videoAegis.current &&
+      videoAegis.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
-    video2 &&
-      video2.current &&
-      video2.current.play().catch((error) => {
+    videoMerge &&
+      videoMerge.current &&
+      videoMerge.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
   };
@@ -36,8 +36,8 @@ const Web = () => {
         <div className="section-top-img border-right ">
           <img
             src={art}
-            className="fsa web-crop"
-            alt="Feu St-Antoine by Maria Jose Govea"
+            className="illustration web-crop"
+            alt="Visual represantation of the world wide web, source unknown"
           ></img>
         </div>
         <div className="section-top-txt margin-left">
@@ -72,12 +72,12 @@ const Web = () => {
       </div>
       <div className="section border-bottom">Recent projects</div>
       <div className="web">
-        <div className="container-project-v2">
-          <div className="title-v2">aegis</div>
-          <div className="container-content-v2">
-            <div className="container-txt-v2">
-              <div className="empty-space-v2">.</div>
-              <div className="project-txt-v2">
+        <div className="container-project">
+          <div className="title">aegis</div>
+          <div className="container-content">
+            <div className="container-txt">
+              <div className="empty-space">.</div>
+              <div className="project-txt">
                 {" "}
                 <div className="web-paragraph">
                   aegis is a non-custodial open plateform for writers and
@@ -127,41 +127,41 @@ const Web = () => {
                 alt="All the devices"
                 src={aegisVideoMp4 || aegisVideo}
                 poster={thumbnailAegis}
-                ref={video2}
+                ref={videoAegis}
               />
             </div>
           </div>
         </div>
-        <div className="container-project-v2">
-          <div className="title-v2">The Merge</div>
-          <div className="container-content-v2">
-            <div className="container-txt-v2">
-              <div className="empty-space-v2">.</div>
-              <div className="project-txt-v2">
-              <div className="web-paragraph">
-              Educational 3D animated single page application.
-            </div>
-            <div className="web-paragraph">
-              Built for the Ethereum Foundation in few days, using Vite,
-              Three.js and Blender.
-            </div>
-            <div className="link-logos">
-              <a
-                className="tilt-link"
-                href="https://github.com/piaere/three-demo"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={GitHub}></img>
-              </a>
-              <a
-                className="tilt-link"
-                href="https://youtu.be/LSWWb8DCdkU"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={YouTube}></img>
-              </a>
+        <div className="container-project">
+          <div className="title">The Merge</div>
+          <div className="container-content">
+            <div className="container-txt">
+              <div className="empty-space">.</div>
+              <div className="project-txt">
+                <div className="web-paragraph">
+                  Educational 3D animated single page application.
+                </div>
+                <div className="web-paragraph">
+                  Built for the Ethereum Foundation in few days, using Vite,
+                  Three.js and Blender.
+                </div>
+                <div className="link-logos">
+                  <a
+                    className="tilt-link"
+                    href="https://github.com/piaere/three-demo"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={GitHub}></img>
+                  </a>
+                  <a
+                    className="tilt-link"
+                    href="https://youtu.be/LSWWb8DCdkU"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={YouTube}></img>
+                  </a>
                 </div>
               </div>
             </div>
@@ -173,14 +173,13 @@ const Web = () => {
                 muted
                 alt="All the devices"
                 src={mergeVideomp4 || mergeVideo}
-                poster={thumbnailAegis}
-                ref={video2}
+                poster={thumbnailTheMerge}
+                ref={videoMerge}
               />
             </div>
           </div>
         </div>
-        <div className="margin"></div>
-        <div>More soon ^^</div>
+        <div className="more-soon">More soon ^^</div>
       </div>
     </>
   );

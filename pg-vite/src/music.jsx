@@ -62,7 +62,7 @@ const Music = () => {
         <div className="section-top-img border-left mobile-landscape">
           <img
             src={FSA2}
-            className="fsa"
+            className="illustration"
             alt="Feu St-Antoine by Maria Jose Govea"
           ></img>
         </div>

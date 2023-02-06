@@ -102,16 +102,6 @@ video {
   border-top: 1px black solid;
 }
 
-
-.web-section {
-  padding: 10px 0;
-  letter-spacing: 1px;
-  font-family: ABCLaicaBItalicVariable;
-  font-style: italic;
-  font-size: 1.1em;
-
-}
-
 .logo {
   padding: 60px 0 40px;
   font-size: 2.8vw;
@@ -130,7 +120,6 @@ video {
   text-shadow: 0 0 5px rgb(249, 235, 241);
   letter-spacing: 15px;
   padding-left: 8px;
-
 }
 
 .section-top {
@@ -160,7 +149,7 @@ video {
   justify-content: center;
 }
 
-.fsa {
+.illustration {
   width: auto;
   height: 100%;
   object-fit: cover;
@@ -173,7 +162,7 @@ video {
 
 
 .fade-in {
-  animation: fadeIn 1s ease-out;
+  animation: fadeIn 1.5s ease-out;
   opacity: 1;
 }
 
@@ -200,16 +189,6 @@ video {
 
   .bio-paragraph.less-padding {
     padding: 0px 0px 15px 20px;
-  }
-
-  .section-project {
-    grid-template-columns: 1fr 0fr 1fr;
-  }
-
-
-  .web-project-title {
-    font-size: 4em;
-    letter-spacing: 27px;
   }
 }
 
@@ -260,16 +239,11 @@ video {
     flex-direction: column;
   }
 
-  .section-project {
-    display: flex;
-    flex-direction: column;
-  }
-
 
   .section-top-txt {
     margin: 40px 0;
     justify-content: space-evenly;
-    min-height: 52vh;
+    min-height: 50vh;
 
   }
 
@@ -286,7 +260,7 @@ video {
   }
 
   .logo {
-    padding: 0 0 0px;
+    padding: 0 0 20px;
     font-size: 4.2vw;
     letter-spacing: 3px;
   }
@@ -314,7 +288,7 @@ video {
     padding-bottom: 0;
   }
 
-  .fsa.web-crop {
+  .illustration.web-crop {
     height: 25vh;
     object-position: 100% 100%;
   }
@@ -358,15 +332,13 @@ video {
   }
 
   .logo {
-    padding: 0 0 40px;
+    padding: 0 0 30px;
     font-size: 7.5vw;
     letter-spacing: 2px;
-    /* text-shadow: 0 0 2px rgb(219, 78, 219); */
   }
 
 
   .logo:hover {
-    /* text-shadow: 0 0 3px rgba(0, 0, 0, 1); */
     letter-spacing: 4px;
   }
 
@@ -378,7 +350,7 @@ video {
     padding: 0px 20px 15px 20px;
   }
 
-  .fsa.web-crop {
+  .illustration.web-crop {
     height: 25vh;
   }
 
@@ -386,17 +358,6 @@ video {
     font-size: 3em;
     letter-spacing: 3.5vw;
   }
-
-  .col3 {
-    margin: 17% 0;
-  }
-
-
-
-
-  /* .project-top{
-  display: none;
-} */
 }
 
 @media(max-width:290px) {
@@ -409,24 +370,5 @@ video {
 
   .logo {
     font-size: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-
-  .mobile-landscape {
-    margin-top: 100px;
-  }
-
-  .section-top {
-    border: none;
-  }
-
-  .web {
-    margin-top: 100px;
-  }
-
-  .logo-container {
-    margin-bottom: 30px;
   }
 }

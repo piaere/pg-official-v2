@@ -1,5 +1,5 @@
 import "./css/Home.css";
-import pg from "./images/Pierre-Guerineau-ID.jpg";
+import pg from "./images/Pierre-Guerineau-ID2.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
