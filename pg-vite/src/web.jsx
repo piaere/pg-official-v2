@@ -73,7 +73,7 @@ const Web = () => {
       <div className="section border-bottom">Recent projects</div>
       <div className="web">
         <div className="container-project">
-          <div className="title">aegis</div>
+          <div className="title">aegis  <span className="blink">▌</span></div>
           <div className="container-content">
             <div className="container-txt">
               <div className="empty-space">.</div>
