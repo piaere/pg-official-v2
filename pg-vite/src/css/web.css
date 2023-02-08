@@ -91,6 +91,7 @@
     -webkit-animation: blink-animation 1.5s steps(3, start) infinite;
 }
 
+
 @keyframes blink-animation {
     to {
         visibility: hidden;
@@ -102,7 +103,6 @@
         visibility: hidden;
     }
 }
-
 
 
 @media(max-width: 1050px) {
@@ -144,4 +144,9 @@
         font-size: 3em;
         letter-spacing: 2.5vw;
     }
+
+    .link-logos {
+        margin: 10% 5% 0 8%;
+    }
+
 }
