@@ -13,7 +13,7 @@ const Header = () => {
   const activePath = (url) => {
     if (url === pathname) {
       return {
-        "textShadow": "0 0 0.2vh rgb(132, 132, 132)",
+        textShadow: "0 0 0.2vh rgb(132, 132, 132)",
       };
     }
   };

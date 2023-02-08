@@ -80,11 +80,11 @@
 
 .link-logos {
     display: flex;
-    margin: 5% 20% 0;
-    scale: 1.5;
+    margin: 5% 10% 0;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
 }
+
 
 .blink {
     animation: blink-animation 1.5s steps(3, start) infinite;

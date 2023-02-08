@@ -105,15 +105,13 @@ const Web = () => {
                 </div>
                 <div className="link-logos">
                   <a
-                    className="tilt-link"
                     href="https://github.com/piaere/final-project-aegis"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={GitHub}></img>
+                    <img className="zero" src={GitHub}></img>
                   </a>
                   <a
-                    className="tilt-link"
                     href="https://youtu.be/twCqmOA_QwQ"
                     target="_blank"
                     rel="noreferrer"
@@ -153,7 +151,6 @@ const Web = () => {
                 </div>
                 <div className="link-logos">
                   <a
-                    className="tilt-link"
                     href="https://github.com/piaere/three-demo"
                     target="_blank"
                     rel="noreferrer"
@@ -161,7 +158,6 @@ const Web = () => {
                     <img src={GitHub}></img>
                   </a>
                   <a
-                    className="tilt-link"
                     href="https://youtu.be/LSWWb8DCdkU"
                     target="_blank"
                     rel="noreferrer"
