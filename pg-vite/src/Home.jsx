@@ -18,7 +18,7 @@ const Home = () => {
             <Link className="music-web" to="/web">
               web
             </Link>{" "}
-            technologies ◌ offering creative services in Canada and abroad.
+            technologies ∿ offering creative services in Canada and abroad.
           </div>
         </div>
         <div className="right-home">

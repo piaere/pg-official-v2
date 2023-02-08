@@ -96,6 +96,7 @@ video {
   border-bottom: 1px black solid;
   border-top: 1px black solid;
   box-sizing: border-box;
+  cursor: default;
 
 }
 
