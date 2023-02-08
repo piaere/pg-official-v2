@@ -136,7 +136,7 @@ const Web = () => {
           </div>
         </div>
         <div className="container-project">
-          <div className="title">♢The Merge</div>
+          <div className="title">The Merge</div>
           <div className="container-content">
             <div className="container-txt">
               <div className="empty-space">.</div>
