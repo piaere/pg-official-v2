@@ -67,6 +67,11 @@ const Web = () => {
               and deploy smart contracts on EVM-compatible blockchains, and
               incorporate web3 tooling in his development toolbox.
             </div>
+            <div className="bio-paragraph less-padding">
+              His services are, but are not limited to, building multi-platform
+              web-based solutions, UI / UX design and custom smart contracts
+              creation.
+            </div>
           </div>
         </div>
       </div>
