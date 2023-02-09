@@ -187,7 +187,14 @@ const Web = () => {
             </div>
           </div>
         </div>
-        <div className="more-soon">More soon ^^</div>
+        <div className="more-soon">
+          More soon ^^
+          <div>
+            <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
+              Contact : polemoflora@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );

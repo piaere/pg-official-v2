@@ -24,13 +24,21 @@
 
 .social-contact-box {
   display: flex;
-  width: 200px;
+  width: 50%;
   justify-content: space-between;
 }
 
 .social-contact-title {
   font-weight: 700;
   margin-bottom: 15px;
+}
+
+.social-contact-2 {
+  padding-left: 10%;
+}
+
+.email-mobile {
+  display: none;
 }
 
 .right-home {

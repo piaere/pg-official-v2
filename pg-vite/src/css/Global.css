@@ -80,14 +80,6 @@ video {
 }
 
 @font-face {
-  font-family: "Oracle";
-  src: url(../fonts/ABCOracle-Medium-Trial.woff) format("woff"),
-    url(../fonts/ABCOracle-Medium-Trial.woff2) format("woff2"),
-    url(../fonts/ABCOracle-Medium-Trial.ttf) format("truetype");
-}
-
-
-@font-face {
   font-family: "ABCLaicaBItalicVariable";
   src: url(../fonts/ABCLaicaBItalicVariable-Trial.woff) format("woff") url(../fonts/ABCLaicaBItalicVariable-Trial.woff2) format("woff2"),
     url(../fonts/ABCLaicaBItalicVariable-Trial.ttf) format("truetype");
@@ -203,6 +195,13 @@ video {
     grid-template-rows: auto;
   }
 
+  .email-desktop {
+    display: none;
+  }
+  .email-mobile {
+    display: block;
+  }
+
 
   .left-home {
     padding: 4% 6%;
@@ -313,6 +312,14 @@ video {
   .left-home-bottom {
     margin: 30px 0 30px;
   }
+
+  .social-contact-box {
+    width: 68%;
+  }
+
+ 
+
+
 
   .music-web {
     text-shadow: 0 0 0.65vw rgba(0, 0, 0, 1);

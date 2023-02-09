@@ -1,5 +1,6 @@
 import "./css/Home.css";
 import pg from "./images/Pierre-Guerineau-ID2.jpg";
+import copyToClipboard from "./images/copy-to-clipboard.svg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
         </div>
         <div className="left-home left-home-bottom">
           <div className="social-contact-box">
-            <div className="social-contact">
+            <div className="social-contact-1">
               <div className="social-contact-title">Social</div>
               <a
                 className="tilt-link"
@@ -54,11 +55,22 @@ const Home = () => {
                 Instagram
               </a>
             </div>
-            <div className="social-contact">
+            <div className="social-contact-2">
               <div className="social-contact-title">Contact</div>
-              <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
-                E-mail
-              </a>
+
+              <div className="email-desktop">
+                {" "}
+                <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
+                  polemoflora@gmail.com
+                </a>
+              </div>
+              <div className="email-mobile">
+                <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
+                  polemoflora
+                  <br />
+                  @gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>

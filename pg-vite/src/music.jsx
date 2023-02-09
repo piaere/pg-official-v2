@@ -34,9 +34,9 @@ const Music = () => {
               <i> Berghain.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside from his long-time collaborative music project <i>Essaie pas</i>{" "}
-              (with <i>Marie Davidson</i>), in 2020, he co-founded the{" "}
-              <i>Éditions Appærent</i> imprint with{" "}
+              Aside from his long-time collaborative music project{" "}
+              <i>Essaie pas</i> (with <i>Marie Davidson</i>), in 2020, he
+              co-founded the <i>Éditions Appærent</i> imprint with{" "}
               <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
               publishing his first solo record under the name{" "}
               <i>Feu St-Antoine</i>.
@@ -45,15 +45,15 @@ const Music = () => {
               Named after historical cases of mass hallucinations in French
               villages, <i>Feu St-Antoine's</i> music escapes conventional
               classification, using uncanny realism to create a startling realm
-              of sound. Colorful, poetic and gently unsettling, Guerineau's
-              work displays 'a stunningly varied and layered masterclass
-              in wordless storytelling' <i>(Boomkat).</i>
+              of sound. Colorful, poetic and gently unsettling, Guerineau's work
+              displays 'a stunningly varied and layered masterclass in wordless
+              storytelling' <i>(Boomkat).</i>
             </div>
             <div className="bio-paragraph ">
               {" "}
               His services are, but are not limited to, production and
-              arrangements, original music composition for film and media, mixing
-              and mastering services, and remixes.
+              arrangements, original music composition for film and media,
+              mixing and mastering services, and remixes.
             </div>
           </div>
         </div>
@@ -123,6 +123,9 @@ const Music = () => {
         })}
         <div className="gif-center">
           <img src={gif} className="gif" loading="lazy"></img>
+          <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
+            Contact : polemoflora@gmail.com
+          </a>
         </div>
       </div>
     </>

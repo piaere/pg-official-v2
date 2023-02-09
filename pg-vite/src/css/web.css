@@ -76,6 +76,9 @@
 
 .more-soon {
     margin: 10vh 0 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link-logos {
