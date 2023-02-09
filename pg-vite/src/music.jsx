@@ -81,7 +81,7 @@ const Music = () => {
                 "Producer / Mixing / Mastering Engineer Works (Selective discography)";
               break;
             case "composer":
-              title = "Official Albums";
+              title = "Official Releases";
               break;
             case "osts":
               title = "Original Motion Picture Soundtracks";
