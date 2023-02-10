@@ -68,7 +68,7 @@ const Web = () => {
               incorporate web3 tooling in his development toolbox.
             </div>
             <div className="bio-paragraph less-padding">
-              His services are, but are not limited to, building multi-platform
+              His services includes, but are not limited to, building multi-platform
               web-based solutions, UI / UX design and custom smart contracts
               creation.
             </div>

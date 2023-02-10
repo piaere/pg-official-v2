@@ -1,6 +1,5 @@
 import "./css/Home.css";
 import pg from "./images/Pierre-Guerineau-ID2.jpg";
-import copyToClipboard from "./images/copy-to-clipboard.svg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
