@@ -2,6 +2,8 @@ import "./css/music.css";
 import dataJSON from "./data.json";
 import gif from "./images/pg.gif";
 import FSA2 from "./images/FSA-by-Maria-Jose-Govea-3.jpeg";
+import FSA1 from "./images/FSA1.webp";
+import eau from "./images/eau.jpg";
 
 const Music = () => {
   const data = dataJSON.music;
@@ -11,7 +13,7 @@ const Music = () => {
       <div className="section-top mobile-landscape fade-in">
         <div className="section-top-txt">
           <div className="logo-container">
-            <div className="logo"> ♪ music </div>
+            {/* <div className="logo"> ♪ music </div> */}
           </div>
           <div className="bio">
             <div className="bio-paragraph ">
@@ -19,48 +21,50 @@ const Music = () => {
               mixing engineer, Pierre Guerineau has contributed to a broad
               catalog of records, films, remixes and performances.
             </div>
-            <div className="bio-paragraph ">
+            {/* <div className="bio-paragraph ">
               Trained in sound engineering in France and currently based in
               Montreal (Canada), Guerineau is at ease on both sides of the
               studio glass, finding creative and innovative solutions to express
               the artist's full potential at every step of a project.
-            </div>
+            </div> */}
             <div className="bio-paragraph ">
               His work has been featured in publications such as{" "}
               <i>NME, Pitchfork, The Guardian </i>
-              and <i>The New York Times,</i> and his live performances have been
-              presented by international institutions such as{" "}
-              <i>Primavera Festival, Mutek</i> and
-              <i> Berghain.</i>
+              and <i>The New York Times, </i> and his clients includes{" "}
+              <i>HBO, Givenchy</i> and
+              <i> Yves Saint Laurent.</i>
             </div>
             <div className="bio-paragraph ">
-              Aside from his long-time collaborative music project{" "}
-              <i>Essaie pas</i> (with <i>Marie Davidson</i>), in 2020, he
-              co-founded the <i>Éditions Appærent</i> imprint with{" "}
-              <i>Jesse Osborne-Lanthier</i> and <i>Will Balantyne,</i>{" "}
-              publishing his first solo record under the name{" "}
+              Aside from his long-time collaborative music projects{" "}
+              <i>Essaie pas (DFA Records)</i> and <i>Marie Davidson (Cititrax, Ninja Tune, DEEWEE)</i>, in 2020, he
+              co-founded the <i>Éditions Appærent</i> imprint,  {" "}
+              where he publishes his solo work under the name {" "}
               <i>Feu St-Antoine</i>.
             </div>
             <div className="bio-paragraph ">
               Named after historical cases of mass hallucinations in French
               villages, <i>Feu St-Antoine's</i> music escapes conventional
-              classification, using uncanny realism to create a startling realm
-              of sound. Colorful, poetic and gently unsettling, Guerineau's work
+              classification, and
               displays 'a stunningly varied and layered masterclass in wordless
-              storytelling' <i>(Boomkat).</i>
+              storytelling' <i>(Boomkat).</i> 
             </div>
             <div className="bio-paragraph ">
               {" "}
-              His services are, but are not limited to, production and
-              arrangements, original music composition for film and media,
-              mixing and mastering services, and remixes.
+              His services are, but are not limited to : consulting, production, original music composition for film and media,
+              mixing and mastering services.
+            </div>
+            <div className="bio-paragraph ">
+              {" "}
+              <a href="mailto:essaiepas@gmail.com?subject=Contact">
+            Contact : essaiepas@gmail.com
+          </a>
             </div>
           </div>
         </div>
 
-        <div className="section-top-img border-left mobile-landscape">
+        <div className="section-top-img mobile-landscape">
           <img
-            src={FSA2}
+            src={FSA1}
             className="illustration"
             alt="Feu St-Antoine by Maria Jose Govea"
           ></img>
@@ -122,9 +126,8 @@ const Music = () => {
           );
         })}
         <div className="gif-center">
-          <img src={gif} className="gif" loading="lazy"></img>
-          <a href="mailto:polemoflora@gmail.com?subject=Let's work together">
-            Contact : polemoflora@gmail.com
+          <a href="mailto:essaiepas@gmail.com?subject=Contact">
+            Contact : essaiepas@gmail.com
           </a>
         </div>
       </div>

@@ -133,7 +133,7 @@ const Web = () => {
                 loop
                 muted
                 alt="All the devices"
-                src={aegisVideoMp4 || aegisVideo}
+                src= {aegisVideoMp4 || aegisVideo}
                 poster={thumbnailAegis}
                 ref={videoAegis}
               />

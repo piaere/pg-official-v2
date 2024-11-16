@@ -1,65 +1,179 @@
 {
   "music": [
     {
-      "prizes": [
+      "composer": [
         {
-          "institution": "ADISQ ",
-          "category": "Album Of The Year — Other languages (Won)",
-          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "artist": "Feu St-Antoine",
+          "album": "🫂 (People Hugging EP)",
+          "label": "Éditions Appærent",
+          "year": "2024"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Sexy Clown",
+          "label": "DEEWEE",
+          "year": "2024"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Contrarian",
+          "label": "DEEWEE",
+          "year": "2024"
+        },
+        {
+          "artist": "Orchestroll & Feu St-Antoine",
+          "album": "Tintinnabulation ChXss",
+          "label": "Éditions Appærent",
+          "year": "2024"
+        },
+        {
+          "artist": "Polido (feat. Feu St-Antoine)",
+          "album": "Another Front",
+          "label": "ANA",
+          "year": "2024"
+        },
+        {
+          "artist": "Marie Davidson",
+          "album": "Y.A.A.M.",
+          "label": "DEEWEE",
+          "year": "2024"
+        },
+        {
+          "artist": "Marie Davidson & L’OEil Nu",
+          "album": "Persona",
+          "label": "Ninja Tune",
           "year": "2021"
         },
         {
-          "institution": "ADISQ ",
-          "category": "Music Production Of The year (Nominated)",
-          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "artist": "Feu St-Antoine",
+          "album": "Cela n'a plus d'importance maintenant",
+          "label": "Nina",
           "year": "2021"
         },
         {
-          "institution": "ADISQ ",
-          "category": "Recording & Mixing Of The year (Nominated)",
-          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
-          "year": "2021"
-        },
-        {
-          "institution": "GRAMMY ",
-          "category": "Best Remixed Recording (Nominated)",
-          "artist": "Marie Davidson — Work It (Soulwax Remix)",
+          "artist": "Marie Davidson & L’OEil Nu",
+          "album": "Renegade Breakdown",
+          "label": "Ninja Tune",
           "year": "2020"
         },
         {
-          "institution": "SOCAN ",
-          "category": "Electronic Album Of The Year (Won)",
-          "artist": "Marie Davidson — Working Class Woman",
+          "artist": "Orchestroll",
+          "album": "Dirge",
+          "label": "Perpetual Care",
+          "year": "2020"
+        },
+        {
+          "artist": "Feu St-Antoine",
+          "album": "Enantiodromia",
+          "label": "Re-Conceive",
+          "year": "2020"
+        },
+        {
+          "artist": "Feu St-Antoine",
+          "album": "L'eau par la soif",
+          "label": "Éditions Appærent",
+          "year": "2020"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Earth",
+          "label": "DFA",
           "year": "2019"
         },
         {
-          "institution": "POLARIS",
-          "category": "Short List",
-          "artist": "Marie Davidson — Working Class Woman",
-          "year": "2019"
+          "artist": "Essaie pas",
+          "album": "New Path",
+          "label": "DFA",
+          "year": "2018"
         },
         {
-          "institution": "SOCAN ",
-          "category": "Electronic Album Of The Year (Won)",
-          "artist": "Marie Davidson — Adieux au Dancefloor",
-          "year": "2017"
-        },
-        {
-          "institution": "POLARIS Prize",
-          "category": "Long List",
-          "artist": "Marie Davidson — Adieux au Dancefloor",
-          "year": "2017"
-        },
-        {
-          "institution": "POLARIS Prize",
-          "category": "Long List",
-          "artist": "Essaie pas — Demain est une autre nuit",
+          "artist": "Essaie pas",
+          "album": "Demain est une autre nuit",
+          "label": "DFA",
           "year": "2016"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Danse Sociale",
+          "label": "Teenage Menopause",
+          "year": "2015"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Split Essaie pas/ Police des Moeurs",
+          "label": "Atelier Ciseaux",
+          "year": "2014"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Nuit de noce",
+          "label": "Teenage Menopause",
+          "year": "2013"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Tout est jeune",
+          "label": "Téméraire",
+          "year": "2013"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "Liaisons dans la nuit / Le fruit des solitudes (w/ Hobo Cubes)",
+          "label": "Téméraire",
+          "year": "2012"
+        },
+        {
+          "artist": "Essaie pas",
+          "album": "EP",
+          "label": "Téméraire",
+          "year": "2011"
         }
       ]
     },
     {
       "producer": [
+        {
+          "artist": "Salon Privé",
+          "album": "New D​é​lire​/​French Toucheur",
+          "label": "BÊTE",
+          "year": "2024"
+        },
+        {
+          "artist": "Dawn to Dawn",
+          "album": "Yours To Know",
+          "label": "Independent",
+          "year": "2024"
+        },
+        {
+          "artist": "Bernardino Femminielli",
+          "album": "Boudoir de l’éternité",
+          "label": "Bunni Europe / Corps Double",
+          "year": "2024"
+        },
+        {
+          "artist": "Anna Arrobas",
+          "album": "Undine",
+          "label": "Independent",
+          "year": "2024"
+        },
+        {
+          "artist": "Daniel Carter and Stefan Christoff",
+          "album": "In the wind now",
+          "label": "Shimmering Moods",
+          "year": "2024"
+        },
+        {
+          "artist": "Marci",
+          "album": "STOP",
+          "label": "Independent",
+          "year": "2023"
+        },
+        {
+          "artist": "Bernardino Femminielli",
+          "album": "Nobody's Boy",
+          "label": "Antinote",
+          "year": "2022"
+        },
         {
           "artist": "Lash",
           "album": "House Of Women",
@@ -248,100 +362,7 @@
         }
       ]
     },
-    {
-      "composer": [
-        {
-          "artist": "Marie Davidson & L’OEil Nu",
-          "album": "Persona",
-          "label": "Ninja Tune",
-          "year": "2021"
-        },
-        {
-          "artist": "Feu St-Antoine",
-          "album": "Cela n'a plus d'importance maintenant",
-          "label": "Nina",
-          "year": "2021"
-        },
-        {
-          "artist": "Marie Davidson & L’OEil Nu",
-          "album": "Renegade Breakdown",
-          "label": "Ninja Tune",
-          "year": "2020"
-        },
-        {
-          "artist": "Orchestroll",
-          "album": "Dirge",
-          "label": "Perpetual Care",
-          "year": "2020"
-        },
-        {
-          "artist": "Feu St-Antoine",
-          "album": "Enantiodromia",
-          "label": "Re-Conceive",
-          "year": "2020"
-        },
-        {
-          "artist": "Feu St-Antoine",
-          "album": "L'eau par la soif",
-          "label": "Éditions Appærent",
-          "year": "2020"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Earth",
-          "label": "DFA",
-          "year": "2019"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "New Path",
-          "label": "DFA",
-          "year": "2018"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Demain est une autre nuit",
-          "label": "DFA",
-          "year": "2016"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Danse Sociale",
-          "label": "Teenage Menopause",
-          "year": "2015"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Split Essaie pas/ Police des Moeurs",
-          "label": "Atelier Ciseaux",
-          "year": "2014"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Nuit de noce",
-          "label": "Teenage Menopause",
-          "year": "2013"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Tout est jeune",
-          "label": "Téméraire",
-          "year": "2013"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "Liaisons dans la nuit / Le fruit des solitudes (w/ Hobo Cubes)",
-          "label": "Téméraire",
-          "year": "2012"
-        },
-        {
-          "artist": "Essaie pas",
-          "album": "EP",
-          "label": "Téméraire",
-          "year": "2011"
-        }
-      ]
-    },
+   
     {
       "osts": [
         {
@@ -425,6 +446,64 @@
           "title": "How You Say (Essaie pas Remix)",
           "label": "DFA",
           "year": "2014"
+        }
+      ]
+    },
+    {
+      "prizes": [
+        {
+          "institution": "ADISQ ",
+          "category": "Album Of The Year — Other languages (Won)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
+        },
+        {
+          "institution": "ADISQ ",
+          "category": "Music Production Of The year (Nominated)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
+        },
+        {
+          "institution": "ADISQ ",
+          "category": "Recording & Mixing Of The year (Nominated)",
+          "artist": "Marie Davidson & L’Oeil Nu — Renegade Breakdown",
+          "year": "2021"
+        },
+        {
+          "institution": "GRAMMY ",
+          "category": "Best Remixed Recording (Nominated)",
+          "artist": "Marie Davidson — Work It (Soulwax Remix)",
+          "year": "2020"
+        },
+        {
+          "institution": "SOCAN ",
+          "category": "Electronic Album Of The Year (Won)",
+          "artist": "Marie Davidson — Working Class Woman",
+          "year": "2019"
+        },
+        {
+          "institution": "POLARIS",
+          "category": "Short List",
+          "artist": "Marie Davidson — Working Class Woman",
+          "year": "2019"
+        },
+        {
+          "institution": "SOCAN ",
+          "category": "Electronic Album Of The Year (Won)",
+          "artist": "Marie Davidson — Adieux au Dancefloor",
+          "year": "2017"
+        },
+        {
+          "institution": "POLARIS Prize",
+          "category": "Long List",
+          "artist": "Marie Davidson — Adieux au Dancefloor",
+          "year": "2017"
+        },
+        {
+          "institution": "POLARIS Prize",
+          "category": "Long List",
+          "artist": "Essaie pas — Demain est une autre nuit",
+          "year": "2016"
         }
       ]
     }

@@ -1,19 +1,21 @@
 * {
-  margin: 0;
+  margin: 0; 
   box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0 20px 0;
-  font-size: 0.93em;
-  height: 100%;
-  background: rgb(249, 235, 241);
+  /* margin:  0; */
+  /* font-size: 0.93em; */
+  color: black;
+  /* height: 100%; */
+  /* background: rgb(249, 235, 241); */
+
   font-family: PPNeueMontreal;
 }
 
 body {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,8 +24,11 @@ picture,
 video,
 canvas,
 svg {
-  display: inline;
-  max-width: 100%;
+  /* display: inline; */
+  display: block;
+ 
+  object-fit: cover;
+/* max-height: 100vh; */
 }
 
 
@@ -55,22 +60,22 @@ a {
   text-decoration: inherit;
 }
 
-nav {
+/* nav {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   padding-top: 11px;
   top: 0;
   position: sticky;
   position: -webkit-sticky;
-}
+} */
 
 
-video {
+/* video {
   border-radius: 5px;
   border: 1px solid #4444dd;
   filter: drop-shadow(5px 5px 4px #4444dd);
   z-index: -1;
-}
+} */
 
 @font-face {
   font-family: "PPNeueMontreal";
@@ -86,15 +91,15 @@ video {
 }
 
 .page {
-  margin: 31px 0 0;
+  /* margin: 31px 0 0;
   border-bottom: 1px black solid;
-  border-top: 1px black solid;
+  border-top: 1px black solid; */
   box-sizing: border-box;
   cursor: default;
 
 }
 
-.logo {
+/* .logo {
   padding: 60px 0 40px;
   font-size: 2.8vw;
   display: flex;
@@ -105,51 +110,60 @@ video {
   text-shadow: 0 0 0.4vh #c4c4f6;
   transition: all 2s ease-out;
   font-weight: 900;
-}
+} */
 
-.logo:hover {
+/* .logo:hover {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgb(249, 235, 241);
   letter-spacing: 15px;
   padding-left: 8px;
-}
+} */
 
 .section-top {
+  height: 100vh;
   line-height: 17px;
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 1px black solid;
+  /* border-bottom: 1px white solid; */
 }
 
 
 .section-top-txt {
+  font-size: 1.2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 
-.logo-container {
+/* .logo-container {
   padding-left: 42px;
   display: flex;
-}
+} */
 
 .section-top-img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+      display: flex;
+      justify-content: right;   
+      /* flex-direction: column; */
+
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+
 }
 
 .illustration {
-  width: auto;
-  height: 100%;
-  object-fit: cover;
-  object-position: 100% 0;
+
+/* height: 100px; */
+  width: 80%;
+  /* object-fit: cover; */
+  /* object-position: 100% 0; */
 }
 
 .bio-paragraph {
-  padding: 0px 70px 15px 40px;
+  padding: 0px 0 15px 100px;
+  line-height: 1.1em;
 }
 
 
@@ -222,10 +236,10 @@ video {
     font-size: 6vw;
   }
 
-  .portrait {
+  /* .portrait {
     margin: 20px;
     max-width: 65vw;
-  }
+  } */
 
   .music-web {
     text-shadow: 0 0 0.7vw rgba(0, 0, 0, 1);
@@ -237,14 +251,30 @@ video {
   }
 
   .section-top-txt {
-    margin: 40px 0;
+    margin: 10vh 0;
     justify-content: space-evenly;
     min-height: 50vh;
   }
 
   .section-top-img {
-    border-left: none;
+/* height: 100%; */
+    /* justify-content: center;   */
+    /* align-items: center; */
+ 
   }
+
+  .illustration {
+
+    /* height: 100px; */
+      width: 100%;
+/* margin: 10vh 0; */
+      /* object-fit: cover; */
+      /* object-position: 100% 0; */
+    }
+
+    .music{
+      margin-top: 40vh;
+    }
 
   .section-top-img.border-right {
     border-bottom: 1px solid black;
@@ -252,7 +282,7 @@ video {
 
   .section-top-img.border-left {
     border-top: 1px solid black;
-  }
+  } */
 
   .logo {
     padding: 0 0 20px;
@@ -289,7 +319,7 @@ video {
   }
 }
 
-@media(max-width:550px) {
+@media(max-width:700px) {
 
   html,
   body {
@@ -327,6 +357,7 @@ video {
 
   .music {
     font-size: 0.9em;
+   margin-top: 10vh;
   }
 
   .section-top-txt {
