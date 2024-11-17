@@ -18,12 +18,6 @@ const Music = () => {
               mixing engineer, Pierre Guerineau has contributed to a broad
               catalog of records, films, remixes and performances.
             </div>
-            {/* <div className="bio-paragraph ">
-              Trained in sound engineering in France and currently based in
-              Montreal (Canada), Guerineau is at ease on both sides of the
-              studio glass, finding creative and innovative solutions to express
-              the artist's full potential at every step of a project.
-            </div> */}
             <div className="bio-paragraph ">
               His work has been featured in publications such as{" "}
               <i>NME, Pitchfork, The Guardian </i>
