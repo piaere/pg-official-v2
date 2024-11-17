@@ -33,7 +33,7 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               Aside from his long-time collaborative music projects{" "}
-              <i>Essaie pas (DFA Records)</i> and <i>Marie Davidson (Cititrax, Ninja Tune, DEEWEE)</i>, he
+              <i>Essaie pas (DFA Records)</i> and <i>Marie Davidson (Cititrax, Ninja Tune, DEEWEE)</i>,
               in 2020 he co-founded the <i>Éditions Appærent</i>,  {" "}
               where he publishes his solo work under the name {" "}
               <i>Feu St-Antoine</i>.
