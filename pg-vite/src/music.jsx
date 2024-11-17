@@ -10,11 +10,8 @@ const Music = () => {
 
   return (
     <>
-      <div className="section-top mobile-landscape fade-in">
+      <div className="section-top fade-in">
         <div className="section-top-txt">
-          <div className="logo-container">
-            {/* <div className="logo"> ♪ music </div> */}
-          </div>
           <div className="bio">
             <div className="bio-paragraph ">
               Across his 10-year career as a composer, record producer and
@@ -36,8 +33,8 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               Aside from his long-time collaborative music projects{" "}
-              <i>Essaie pas (DFA Records)</i> and <i>Marie Davidson (Cititrax, Ninja Tune, DEEWEE)</i>, in 2020, he
-              co-founded the <i>Éditions Appærent</i> imprint,  {" "}
+              <i>Essaie pas (DFA Records)</i> and <i>Marie Davidson (Cititrax, Ninja Tune, DEEWEE)</i>, he
+              co-founded in 2020 the <i>Éditions Appærent</i> imprint,  {" "}
               where he publishes his solo work under the name {" "}
               <i>Feu St-Antoine</i>.
             </div>
@@ -62,7 +59,7 @@ const Music = () => {
           </div>
         </div>
 
-        <div className="section-top-img mobile-landscape">
+        <div className="section-top-img">
           <img
             src={FSA1}
             className="illustration"
