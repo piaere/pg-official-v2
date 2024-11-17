@@ -30,7 +30,7 @@ const Music = () => {
             <div className="bio-paragraph ">
               His work has been featured in publications such as{" "}
               <i>NME, Pitchfork, The Guardian </i>
-              and <i>The New York Times, </i> and his clients includes{" "}
+              and <i>The New York Times,</i> and his clients includes{" "}
               <i>HBO, Givenchy</i> and
               <i> Yves Saint Laurent.</i>
             </div>
