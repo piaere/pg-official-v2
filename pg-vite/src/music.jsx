@@ -46,8 +46,18 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               {" "}
-              <a href="mailto:essaiepas@gmail.com?subject=Contact">
+              <a href="mailto:essaiepas@gmail.com?subject=Contact" target="_blank">
             Contact : essaiepas@gmail.com
+          </a>
+            </div>
+            <div className="bio-paragraph ">
+              <a href="https://feu-st-antoine.bandcamp.com/" target="_blank">
+            Bandcamp
+          </a>
+            </div>
+            <div className="bio-paragraph ">
+              <a href="https://www.instagram.com/feu.st.antoine" target="_blank">
+            Instagram
           </a>
             </div>
           </div>
