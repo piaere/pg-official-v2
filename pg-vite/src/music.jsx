@@ -46,8 +46,8 @@ const Music = () => {
             </div>
             <div className="bio-paragraph ">
               {" "}
-              <a href="mailto:essaiepas@gmail.com?subject=Contact" target="_blank">
-            Contact : essaiepas@gmail.com
+              <a href="mailto:polemoflora@gmail.com?subject=Contact" target="_blank">
+            Contact : polemoflora@gmail.com
           </a>
             </div>
             <div className="bio-paragraph ">
